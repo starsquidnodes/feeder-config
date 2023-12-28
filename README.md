@@ -13,7 +13,7 @@ enable_server = true
 enable_voter = true
 provider_timeout = "1s"
 
-history_db = "/var/tmp/tvwap.db"
+history_db = "/var/tmp/feeder.db"
 
 [server]
 listen_addr = "0.0.0.0:7171"
