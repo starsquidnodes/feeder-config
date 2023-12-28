@@ -64,7 +64,7 @@ urls = [
 Update your feeder config
 
 ```sh
-update-config.py --tag v1.0.0 --custom /path/to/custom.toml --config global > /path/to/your/feeder.toml
+update-config.py --tag v1.0.0 --custom custom.toml --config global > config.toml
 ```
 
 ## Configs
