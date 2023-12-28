@@ -16,8 +16,11 @@ def parse_args():
 def main():
     args = parse_args()
 
-    path = f"starsquid/feeder-config/{args.tag}/toml/{args.config}"
+    path = f"starsquidnodes/feeder-config/{args.tag}/toml/{args.config}.toml"
     response = requests.get(f"https://raw.githubusercontent.com/{path}")
+
+    print(f"tag: {args.tag}")
+    print(f"config: {args.config}")
 
     if response.status_code != 200:
         return
