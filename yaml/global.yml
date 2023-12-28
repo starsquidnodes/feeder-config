@@ -1,0 +1,324 @@
+currency_pairs:
+  AKT-USD:
+    providers: crypto, kraken
+  AKT-USDT:
+    providers: gate, huobi, kucoin
+      
+  AMPKUJI-KUJI:
+    providers: finv2
+    twap: 30m
+  
+  ARB-USD:
+    providers: bitfinex, coinbase, crypto, kraken
+  ARB-USDT:
+    providers: binance, bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, xt
+  
+  ATOM-USD:
+    providers: coinbase, kraken
+  ATOM-USDT:
+    providers: binance, bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+
+  AVAX-USD:
+    providers: bitfinex, coinbase, kraken
+  AVAX-USDT:
+    providers: binance, bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+  
+  AXL-USD:
+    providers: coinbase, crypto, kraken
+  AXL-USDT:
+    providers: huobi, bybit, mexc, bitget, kucoin, gate
+  AXL-MNTA:
+    providers: fin
+    twap: 30m
+
+  BAND-USDT:
+    providers: binance, bitget, crypto, gate, hitbtc, huobi, kucoin, okx, phemex
+
+  BNB-USDT:
+    providers: binance, bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+
+  BTC-USD:
+    providers: bitfinex, coinbase
+  BTC-USDT:
+    providers: binance, bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+
+  CRO-USDT:
+    providers: bitget, crypto, gate, kucoin, lbank, mexc, okx, xt
+
+  DOT-USD:
+    providers: bitfinex, coinbase, crypto, kraken
+  DOT-USDT:
+    providers: binance, bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+
+  ETH-USD:
+    providers: bitfinex, coinbase, crypto
+  ETH-USDT:
+    providers: binance, bitget, bybit, gate, hitbtc, huobi, kraken, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+
+  FET-USD:
+    providers: bitfinex, coinbase, kraken
+  FET-USDT:
+    providers: binance, bitget, crypto, gate, huobi, kucoin, lbank, mexc, phemex
+
+  FTM-USD:
+    providers: bitfinex, kraken
+  FTM-USDT:
+    providers: binance, bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex
+
+  GLMR-USDT:
+    providers: binance, bitget, bybit, crypto, gate, huobi, kucoin, lbank, mexc, okx, xt
+
+  HNT-USD:
+    providers: coinbase, crypto
+  HNT-USDT:
+    providers: bitget, gate, kucoin, bitmart, bybit
+
+  INJ-USD:
+    providers: coinbase, kraken
+  INJ-USDT:
+    providers: binance, bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, phemex
+
+  JUNO-USD:
+    providers: kraken
+  JUNO-USDT:
+    providers: mexc
+  JUNO-OSMO:
+    providers: osmosisv2
+
+  KAVA-USD:
+    providers: coinbase, kraken
+  KAVA-USDT:
+    providers: binance, bitget, crypto, gate, huobi, kucoin, lbank, mexc, xt
+  
+  KUJI-USDT:
+    providers: mexc
+    twap: 30m
+  KUJI-USDC:
+    providers: fin
+    twap: 30m
+  KUJI-WETH:
+    providers: camelotv3
+    twap: 30m
+  
+  LINK-USD:
+    providers: coinbase, kraken, crypto
+  LINK-USDT:
+    providers: binance, okx, lbank, bybit, gate, phemex, xt, bitget, huobi, mexc
+
+  LUNA-USD:
+    providers: kraken
+  LUNA-USDT:
+    providers: binance, bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, xt
+
+  LUNC-USD:
+    providers: crypto, kraken
+  LUNC-USDT:
+    providers: binance, bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, xt
+
+  MATIC-USD:
+    providers: bitfinex, coinbase, crypto, kraken
+  MATIC-USDT:
+    providers: binance, bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+
+  MNTA-USDC:
+    providers: finv2
+    twap: 30m
+
+  NTRN-ATOM:
+    providers: astroport_neutron
+    twap: 30m
+
+  OSMO-USD:
+    providers: crypto
+  OSMO-USDT:
+    providers: binance, bitget, gate, huobi, kucoin, lbank, mexc
+
+  PAXG-USD:
+    providers: kraken
+  PAXG-USDT:
+    providers: binance, bitget, bybit, crypto, kucoin, lbank, mexc, phemex
+
+  RLB-WETH:
+    providers: uniswapv3
+    twap: 30m
+  
+  SCRT-USD:
+    providers: kraken
+  SCRT-USDT:
+    providers: binance, bybit, gate, huobi, kucoin, lbank, mexc
+
+  SOMM-OSMO:
+    providers: osmosisv2
+    twap: 30m
+  SOMM-MNTA:
+    providers: finv2
+    twap: 30m
+
+  SOL-USD:
+    providers: coinbase, kraken
+  SOL-USDT:
+    providers: binance, huobi, okx, bybit, xt, gate, bitget, kucoin
+
+  STARS-OSMO:
+    providers: osmosisv2
+    twap: 30m
+  STARS-MNTA:
+    providers: finv2
+    twap: 30m
+
+  STATOM-ATOM:
+    providers: osmosisv2
+    twap: 30m
+  
+  STOSMO-OSMO:
+    providers: osmosisv2
+    twap: 30m
+  
+  UNI-USD:
+    providers: coinbase, kraken, crypto
+  UNI-USDT:
+    providers: binance, okx, lbank, bybit, gate, phemex, bitget, huobi
+
+  USDC-USD:
+    providers: kraken
+  USDC-USDT:
+    providers: binance, bitget, bybit, gate, huobi, kucoin, lbank, mexc, okx, phemex, xt
+
+  USDT-USD:
+    providers: binanceus, coinbase, crypto, gate, kraken
+
+  USK-USDC:
+    providers: finv2
+    twap: 30m
+
+  RIO-USDT:
+    providers: mexc, okx
+  RIO-ETH:
+    providers: pancakev3_bsc
+    twap: 30m
+  RIO-WETH:
+    providers: uniswapv3
+    twap: 30m
+
+  NSTK-USK:
+    providers: finv2
+    twap: 30m
+  
+  QCKUJI-KUJI:
+    providers: finv2
+    twap: 30m
+  
+  QCMNTA-MNTA:
+    providers: finv2
+    twap: 30m
+  
+  WBTC-BTC:
+    providers: binance, coinbase, kucoin, okx
+  WBTC-USDT:
+    providers: bitget, bybit, crypto, gate, hitbtc, mexc, phemex, poloniex
+
+  WHALE-USDT:
+    providers: mexc
+    twap: 30m
+  WHALE-OSMO:
+    providers: osmosisv2
+    twap: 30m
+  WHALE-MNTA:
+    providers: fin
+    twap: 30m
+
+  WINK-USK:
+    providers: finv2
+    twap: 30m
+
+  WSTETH-WETH:
+    providers: uniswapv3
+    twap: 30m
+  
+  WETH-USDC:
+    providers: uniswapv3
+
+url_sets:
+  api_kujira:
+    - https://example
+  api_neutron:
+    - https://example
+  api_osmosis:
+    - https://example
+  rpc_ethereum:
+    - https://example
+
+endpoints:
+  astroport_neutron:
+    url_set: api_neutron
+  fin:
+    url_set: fin
+  finv2:
+    url_set: api_kujira
+  osmosisv2:
+    url_set: api_osmosis
+  uniswapv3:
+    url_set: rpc_ethereum
+  
+contracts:
+  astroport_neutron:
+    NTRNATOM: neutron1e22zh5p8meddxjclevuhjmfj69jxfsa8uu3jvht72rv9d8lkhves6t8veq
+  camelotv3:
+    KUJIWETH: "0x22427d20480de289795ca29c3adddb57a568e285"
+    WETHGMX: "0xC99be44383BC8d82357F5A1D9ae9976EE9d75bee"
+    WETHUSDC: "0x521aa84ab3fcc4c05cABaC24Dc3682339887B126"
+  finv2:
+    AMPKUJIKUJI: kujira1lse59wt7a5yksdd08mennt299katjkfzdhmh8hvck8ln08jktcmsxrnh8s
+    KUJIUSDC: kujira14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9sl4e867
+    MNTAUSDC: kujira1ws9w7wl68prspv3rut3plv8249rm0ea0kk335swye3sl2slld4lqdmc0lv
+    NSTKUSK: kujira1ggtmfuktfcf6plhtdejyyqn5de5uge3tef0jv64ru68h2ctuvyqs3355mn
+    QCKUJIKUJI: kujira14wsrem89304kpkl6d0j58dl6479eekwt047ccs0qzv9f60w80wzs8rjq4j
+    QCMNTAMNTA: kujira1ujsr2ge7dr723kse7thjv2rm3k7dkmjaxqzdh8qkcnx5gqz57jsqxy4ker
+    SOMMMNTA: kujira1nx5lqc2j4w0ak5dxevj82lar5kunxwj5yamr39xqfazmkksx4f2sksf0hz
+    STARSMNTA: kujira1hsdzhyvuc2z3f8d3yae84uk62d69vk68vxgudkun7gccz6hvrvfq0vx6fd
+    STATOMMNTA: kujira1l2x5c2fjjnw9uhrfhtme9snw3tzs4jt8cm0q2ysqssx6zskxatesjm7w7f
+    USDCUSK: kujira1rwx6w02alc4kaz7xpyg3rlxpjl4g63x5jq292mkxgg65zqpn5llq202vh5
+    WHALEMNTA: kujira1865zmuchjd0g0xr2q5n6hm747s8xju5k8h6mympk4vmqefkuy3hqc66tcw
+    WINKUSK: kujira1qxtd87qus6uzvqs4jv9r0j9ccd4yla42s6qag7y8fp7hhv68nzas6hqxgw
+  osmosisv2:
+    JUNOOSMO: "1097"
+    MNTAOSMO: "1215"
+    # SOMMOSMO: "1103"
+    SOMMOSMO: "627"
+    # STARSOSMO: "1096"
+    STARSOSMO: "604"
+    STATOMATOM: "1136"
+    STOSMOOSMO: "833"
+    WHALEOSMO: "1318"
+  pancakev3_bsc:
+    ETHRIO: "0x043681828303cdf9398f0768bf1da99feebf7ee8"
+  uniswapv3:
+    RLBWETH: "0x510100d5143e011db24e2aa38abe85d73d5b2177"
+    USDCWETH: "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+    WETHRIO: "0x5b7e3e37a1aa6369386e5939053779abd3597508"
+    WSTETHWETH: "0x109830a1AAaD605BbF02a9dFA7B0B92EC2FB7dAa"
+
+min_providers:
+  AMPKUJI: 1
+  JUNO: 1
+  KUJI: 2
+  MNTA: 1
+  NSTK: 1
+  NTRN: 1
+  QCKUJI: 1
+  QCMNTA: 1
+  RLB: 1
+  SOMM: 1
+  STARS: 1
+  STATOM: 1
+  STOSMO: 1
+  USK: 1
+  WETH: 1
+  WHALE: 1
+  WINK: 1
+  WSTETH: 1
+
+deviation_thresholds:
+  KUJI: 2
+  USDT: 2
+  WHALE: 2
