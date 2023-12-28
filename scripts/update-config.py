@@ -22,11 +22,7 @@ def main():
     if response.status_code != 200:
         return
 
-    print(response.text)
-
-    config = ""
-    if args.custom:
-        config = open(args.custom, "r").read() + "\n"
+    config = open(args.custom, "r").read() + "\n"
 
     print(config + response.text)
 
