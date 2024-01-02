@@ -758,6 +758,11 @@ derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
+base = "WETH"
+quote = "USDC"
+providers = ["uniswapv3"]
+
+[[currency_pairs]]
 base = "WSTETH"
 quote = "WETH"
 providers = ["uniswapv3"]
@@ -765,9 +770,18 @@ derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
-base = "WETH"
-quote = "USDC"
-providers = ["uniswapv3"]
+base = "WSTETH"
+quote = "WETH"
+providers = ["astroport_neutron"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
+base = "WSTETH"
+quote = "ETH"
+providers = ["osmosisv2"]
+derivative = "twap"
+derivative_period = "30m"
 
 #
 #  PROVIDER OVERRIDES
@@ -842,6 +856,7 @@ url_set = "rpc_ethereum"
 [contract_addresses.astroport_neutron]
 NTRNATOM = "neutron1e22zh5p8meddxjclevuhjmfj69jxfsa8uu3jvht72rv9d8lkhves6t8veq"
 STATOMATOM = "neutron1l7ny0rckx9rks2p2aq94wd74sehjczym6n9y4yax8lcy9s39uans4uga62"
+WSTETHWETH = "neutron1yw0a7nxa8jdgzmdsme4gwxhj76n44z305qgwrzvlfavgna9epcys3k9m2f"
 
 [contract_addresses.camelotv3]
 KUJIWETH = "0x22427d20480de289795ca29c3adddb57a568e285"
@@ -873,6 +888,7 @@ STARSOSMO = "604"
 STATOMATOM = "1136"
 STOSMOOSMO = "833"
 WHALEOSMO = "1318"
+WSTETHETH = "1292"
 
 [contract_addresses.pancakev3_bsc]
 ETHRIO = "0x043681828303cdf9398f0768bf1da99feebf7ee8"
