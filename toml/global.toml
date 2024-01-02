@@ -470,8 +470,15 @@ providers = [
 
 [[currency_pairs]]
 base = "MNTA"
-quote = "USDC"
+quote = "KUJI"
 providers = ["finv2"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
+base = "MNTA"
+quote = "OSMO"
+providers = ["osmosisv2"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -822,6 +829,7 @@ WETHUSDC = "0x521aa84ab3fcc4c05cABaC24Dc3682339887B126"
 [contract_addresses.finv2]
 AMPKUJIKUJI = "kujira1lse59wt7a5yksdd08mennt299katjkfzdhmh8hvck8ln08jktcmsxrnh8s"
 KUJIUSDC = "kujira14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9sl4e867"
+MNTAKUJI = "kujira1nkgq8xl4flsau7v3vphr3ayc7tprgazg6pzjmq8plkr76v385fhsx26qfa"
 MNTAUSDC = "kujira1ws9w7wl68prspv3rut3plv8249rm0ea0kk335swye3sl2slld4lqdmc0lv"
 NSTKUSK = "kujira1ggtmfuktfcf6plhtdejyyqn5de5uge3tef0jv64ru68h2ctuvyqs3355mn"
 QCKUJIKUJI = "kujira14wsrem89304kpkl6d0j58dl6479eekwt047ccs0qzv9f60w80wzs8rjq4j"
