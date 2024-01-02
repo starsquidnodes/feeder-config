@@ -351,6 +351,13 @@ providers = [
 
 [[currency_pairs]]
 base = "KUJI"
+quote = "OSMO"
+providers = ["osmosisv2"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
+base = "KUJI"
 quote = "USDT"
 providers = ["mexc"]
 derivative = "twap"
@@ -828,6 +835,7 @@ WINKUSK = "kujira1qxtd87qus6uzvqs4jv9r0j9ccd4yla42s6qag7y8fp7hhv68nzas6hqxgw"
 
 [contract_addresses.osmosisv2]
 JUNOOSMO = "1097"
+KUJIOSMO = "744"
 MNTAOSMO = "1215"
 SOMMOSMO = "627"
 STARSOSMO = "604"
