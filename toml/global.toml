@@ -776,13 +776,6 @@ providers = ["astroport_neutron"]
 derivative = "twap"
 derivative_period = "30m"
 
-[[currency_pairs]]
-base = "WSTETH"
-quote = "ETH"
-providers = ["osmosisv2"]
-derivative = "twap"
-derivative_period = "30m"
-
 #
 #  PROVIDER OVERRIDES
 # ------------------------------------------------------------
