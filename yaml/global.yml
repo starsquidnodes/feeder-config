@@ -127,6 +127,11 @@ currency_pairs:
   NTRN-ATOM:
     providers: astroport_neutron
     twap: 30m
+  NTRN-USDC:
+    providers: osmosisv2
+    twap: 30m
+  NTRN-USDT:
+    providers: binance, kucoin, gate, mexc
 
   OSMO-USD:
     providers: crypto
@@ -167,7 +172,7 @@ currency_pairs:
     twap: 30m
 
   STATOM-ATOM:
-    providers: osmosisv2
+    providers: osmosisv2, finv2, astroport_neutron
     twap: 30m
   
   STOSMO-OSMO:
@@ -263,6 +268,7 @@ endpoints:
 contracts:
   astroport_neutron:
     NTRNATOM: neutron1e22zh5p8meddxjclevuhjmfj69jxfsa8uu3jvht72rv9d8lkhves6t8veq
+    STATOMATOM: neutron1l7ny0rckx9rks2p2aq94wd74sehjczym6n9y4yax8lcy9s39uans4uga62
   camelotv3:
     KUJIWETH: "0x22427d20480de289795ca29c3adddb57a568e285"
     WETHGMX: "0xC99be44383BC8d82357F5A1D9ae9976EE9d75bee"
@@ -280,6 +286,7 @@ contracts:
     USDCUSK: kujira1rwx6w02alc4kaz7xpyg3rlxpjl4g63x5jq292mkxgg65zqpn5llq202vh5
     WHALEMNTA: kujira1865zmuchjd0g0xr2q5n6hm747s8xju5k8h6mympk4vmqefkuy3hqc66tcw
     WINKUSK: kujira1qxtd87qus6uzvqs4jv9r0j9ccd4yla42s6qag7y8fp7hhv68nzas6hqxgw
+    STATOMATOM: kujira158zzjcvkz7r3j5hueurcw22qrjerqw4dtrzlalztr7whjykjwvrsrahdnq
   osmosisv2:
     JUNOOSMO: "1097"
     MNTAOSMO: "1215"
@@ -290,6 +297,7 @@ contracts:
     STATOMATOM: "1136"
     STOSMOOSMO: "833"
     WHALEOSMO: "1318"
+    NTRNUSDC: "1324"
   pancakev3_bsc:
     ETHRIO: "0x043681828303cdf9398f0768bf1da99feebf7ee8"
   uniswapv3:
