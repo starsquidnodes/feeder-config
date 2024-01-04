@@ -134,7 +134,7 @@ currency_pairs:
     providers: binance, kucoin, gate, mexc
 
   OSMO-USD:
-    providers: crypto
+    providers: crypto, coinbase
   OSMO-USDT:
     providers: binance, bitget, gate, huobi, kucoin, lbank, mexc
 

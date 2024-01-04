@@ -490,7 +490,7 @@ providers = ["binance", "gate", "kucoin", "mexc"]
 [[currency_pairs]]
 base = "OSMO"
 quote = "USD"
-providers = ["crypto"]
+providers = ["coinbase", "crypto"]
 
 [[currency_pairs]]
 base = "OSMO"
