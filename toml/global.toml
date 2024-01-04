@@ -512,30 +512,6 @@ base = "STATOM"
 threshold = "2"
 
 #
-#  URL SETS
-# ------------------------------------------------------------
-
-[url_set.api_kujira]
-urls = [
-  "https://example",
-]
-
-[url_set.api_neutron]
-urls = [
-  "https://example",
-]
-
-[url_set.api_osmosis]
-urls = [
-  "https://example",
-]
-
-[url_set.rpc_ethereum]
-urls = [
-  "https://example",
-]
-
-#
 #  ENDPOINTS
 # ------------------------------------------------------------
 
