@@ -190,7 +190,7 @@ derivative_period = "30m"
 
 [[currency_pairs]]
 base = "KUJI"
-quote = "USDC"
+quote = "USK"
 providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
@@ -507,6 +507,34 @@ threshold = "2"
 base = "WHALE"
 threshold = "2"
 
+[[deviation_thresholds]]
+base = "STATOM"
+threshold = "2"
+
+#
+#  URL SETS
+# ------------------------------------------------------------
+
+[url_set.api_kujira]
+urls = [
+  "https://example",
+]
+
+[url_set.api_neutron]
+urls = [
+  "https://example",
+]
+
+[url_set.api_osmosis]
+urls = [
+  "https://example",
+]
+
+[url_set.rpc_ethereum]
+urls = [
+  "https://example",
+]
+
 #
 #  ENDPOINTS
 # ------------------------------------------------------------
@@ -543,6 +571,7 @@ WETHUSDC = "0x521aa84ab3fcc4c05cABaC24Dc3682339887B126"
 [contract_addresses.finv2]
 AMPKUJIKUJI = "kujira1lse59wt7a5yksdd08mennt299katjkfzdhmh8hvck8ln08jktcmsxrnh8s"
 KUJIUSDC = "kujira14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9sl4e867"
+KUJIUSK = "kujira193dzcmy7lwuj4eda3zpwwt9ejal00xva0vawcvhgsyyp5cfh6jyq66wfrf"
 MNTAUSDC = "kujira1ws9w7wl68prspv3rut3plv8249rm0ea0kk335swye3sl2slld4lqdmc0lv"
 NSTKUSK = "kujira1ggtmfuktfcf6plhtdejyyqn5de5uge3tef0jv64ru68h2ctuvyqs3355mn"
 QCKUJIKUJI = "kujira14wsrem89304kpkl6d0j58dl6479eekwt047ccs0qzv9f60w80wzs8rjq4j"
