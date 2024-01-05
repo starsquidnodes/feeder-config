@@ -201,8 +201,8 @@ currency_pairs:
   RIO-ETH:
     providers: pancakev3_bsc
     twap: 30m
-  RIO-WETH:
-    providers: uniswapv3
+  RIO-USK:
+    providers: fin
     twap: 30m
 
   NSTK-USK:

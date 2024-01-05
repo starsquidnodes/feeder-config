@@ -661,8 +661,8 @@ derivative_period = "30m"
 
 [[currency_pairs]]
 base = "RIO"
-quote = "WETH"
-providers = ["uniswapv3"]
+quote = "USK"
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
