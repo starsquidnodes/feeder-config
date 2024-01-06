@@ -124,14 +124,8 @@ currency_pairs:
     providers: finv2
     twap: 30m
 
-  NTRN-ATOM:
-    providers: astroport_neutron
-    twap: 30m
-  NTRN-USDC:
-    providers: osmosisv2
-    twap: 30m
   NTRN-USDT:
-    providers: binance, kucoin, gate, mexc
+    providers: binance, kucoin, gate, mexc, bitget, phemex
 
   OSMO-USD:
     providers: crypto, coinbase
