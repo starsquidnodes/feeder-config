@@ -3,17 +3,16 @@ import sys
 import requests
 import yaml
 
+def get_pairs_binance(endpoint):
+    info_res = requests.get(f"{endpoint}/api/v3/exchangeInfo")
+    info_res.raise_for_status()
+    return [f"{s['baseAsset']}-{s['quoteAsset']}" for s in info_res.json()["symbols"]]
+
 def get_pairs(provider):
     if provider == "binance":
-        info_res = requests.get("https://api.binance.us/api/v3/exchangeInfo")
-        info_res.raise_for_status()
-        symbols = [f"{s['baseAsset']}/{s['quoteAsset']}" for s in info_res.json()["symbols"]]
-        return symbols
+        return get_pairs_binance("https://api.binance.com")
     elif provider == "binanceus":
-        info_res = requests.get("https://api.binance.us/api/v3/exchangeInfo")
-        info_res.raise_for_status()
-        symbols = [f"{s['baseAsset']}-{s['quoteAsset']}" for s in info_res.json()["symbols"]]
-        return symbols
+        return get_pairs_binance("https://api.binance.us")
     else:
         raise RuntimeError("provider not supported")
 
