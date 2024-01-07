@@ -21,7 +21,7 @@ def extend_yaml_config(provider, symbols, config_data):
     for symbol, data in config_symbols.items():
         providers = data["providers"]
         if symbol in symbols:
-            providers_list = providers.split(",")
+            providers_list = [p.strip() for p in providers.split(",")]
             if provider not in providers_list:
                 providers_list.append(provider)
                 config_data["currency_pairs"][symbol]["providers"] = ", ".join(providers_list)
