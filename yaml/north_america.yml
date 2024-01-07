@@ -268,4 +268,5 @@ url_sets:
   - https://example
   rpc_ethereum:
   - https://example
-
+  fin:
+  - https://example
