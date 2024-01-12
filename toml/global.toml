@@ -643,14 +643,7 @@ base = "RIO"
 quote = "ETH"
 providers = ["pancakev3_bsc"]
 derivative = "twap"
-derivative_period = "30m"
-
-[[currency_pairs]]
-base = "RIO"
-quote = "USK"
-providers = ["fin"]
-derivative = "twap"
-derivative_period = "30m"
+derivative_period = "20m"
 
 [[currency_pairs]]
 base = "NSTK"

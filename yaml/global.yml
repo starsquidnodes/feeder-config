@@ -194,10 +194,7 @@ currency_pairs:
     providers: mexc, okx
   RIO-ETH:
     providers: pancakev3_bsc
-    twap: 30m
-  RIO-USK:
-    providers: fin
-    twap: 30m
+    twap: 20m
 
   NSTK-USK:
     providers: finv2
