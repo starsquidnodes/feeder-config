@@ -655,7 +655,7 @@ derivative_period = "20m"
 [[currency_pairs]]
 base = "TIA"
 quote = "USD"
-providers = ["", "coinbase", "kraken"]
+providers = ["coinbase", "kraken"]
 
 [[currency_pairs]]
 base = "TIA"

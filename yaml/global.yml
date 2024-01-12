@@ -201,7 +201,7 @@ currency_pairs:
     twap: 20m
 
   TIA-USD:
-    providers: coinbase, kraken, 
+    providers: coinbase, kraken
   TIA-USDT:
     providers: binance, okx, bybit, huobi, kucoin, gate, bitget
   
