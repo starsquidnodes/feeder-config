@@ -469,6 +469,13 @@ derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
+base = "NSTK"
+quote = "USK"
+providers = ["finv2"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
 base = "NTRN"
 quote = "USDT"
 providers = ["binance", "bitget", "gate", "kucoin", "mexc", "phemex"]
@@ -646,11 +653,14 @@ derivative = "twap"
 derivative_period = "20m"
 
 [[currency_pairs]]
-base = "NSTK"
-quote = "USK"
-providers = ["finv2"]
-derivative = "twap"
-derivative_period = "30m"
+base = "TIA"
+quote = "USD"
+providers = ["", "coinbase", "kraken"]
+
+[[currency_pairs]]
+base = "TIA"
+quote = "USDT"
+providers = ["binance", "bitget", "bybit", "gate", "huobi", "kucoin", "okx"]
 
 [[currency_pairs]]
 base = "QCKUJI"

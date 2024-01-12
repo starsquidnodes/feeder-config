@@ -123,6 +123,10 @@ currency_pairs:
   MNTA-USDC:
     providers: finv2
     twap: 30m
+  
+  NSTK-USK:
+    providers: finv2
+    twap: 30m
 
   NTRN-USDT:
     providers: binance, kucoin, gate, mexc, bitget, phemex
@@ -196,9 +200,10 @@ currency_pairs:
     providers: pancakev3_bsc
     twap: 20m
 
-  NSTK-USK:
-    providers: finv2
-    twap: 30m
+  TIA-USD:
+    providers: coinbase, kraken, 
+  TIA-USDT:
+    providers: binance, okx, bybit, huobi, kucoin, gate, bitget
   
   QCKUJI-KUJI:
     providers: finv2
