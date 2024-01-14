@@ -8,7 +8,7 @@ import yaml
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("filename", type=str)
-    parser.add_argument("--no-urlsets", action="store_true")
+    parser.add_argument("--keep-urlsets", action="store_true")
     return parser.parse_args()
 
 
@@ -88,7 +88,7 @@ def main():
             f'threshold = "{dt_value}"'
         ]
 
-    if not args.no_urlsets:
+    if args.keep_urlsets:
         lines += header("url sets")
 
         for us_name, us_urls in config.get("url_sets").items():
