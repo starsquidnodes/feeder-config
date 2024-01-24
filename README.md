@@ -91,6 +91,11 @@ urls = []
 [url_set.api_osmosis]
 urls = []
 
+# providers: shade
+# https://cosmos.directory/secretnetwork/nodes (REST)
+[url_set.api_secret]
+urls = []
+
 # providers: uniswapv3
 # https://ethereumnodes.com
 [url_set.rpc_ethereum]
