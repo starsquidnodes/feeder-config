@@ -56,15 +56,15 @@ urls = ["https://kaiyo-1.gigalixirapp.com"]
 
 [url_set.api_kujira]
 urls = [
-  "http://127.0.0.1:11702",
-  "https://api-kujira.starsquid.io"
+  "https://you.api.node",
+  "https://another.url"
 ]
 ```
 
 Update your feeder config
 
 ```sh
-update-config.py --tag v1.0.0 --custom custom.toml --config global > config.toml
+update-config.py --tag x.y.z --custom custom.toml --config configname > config.toml
 ```
 
 ## Configs
@@ -89,6 +89,54 @@ urls = []
 # providers: osmosisv2
 # https://cosmos.directory/osmosis/nodes (REST)
 [url_set.api_osmosis]
+urls = []
+
+# providers: dexter
+# https://cosmos.directory/persistence/nodes (REST)
+[url_set.api_persistence]
+urls = []
+
+# providers: shade
+# https://cosmos.directory/secretnetwork/nodes (REST)
+[url_set.api_secret]
+urls = []
+
+# providers: uniswapv3
+# https://ethereumnodes.com
+[url_set.rpc_ethereum]
+urls = []
+
+# providers: fin
+# ["https://api.kujira.app", "https://kaiyo-1.gigalixirapp.com"]
+[url_set.fin]
+urls = []
+```
+
+### `north-america`
+
+This config is meant for nodes running in North America and are geo blocked by `binance`. It makes use of (almost) all available price sources excluding `binance`
+
+Required URL sets:
+
+```toml
+# providers: finv2
+# https://cosmos.directory/kujira/nodes (REST)
+[url_set.api_kujira]
+urls = []
+
+# providers: astroport_neutron
+# https://cosmos.directory/neutron/nodes (REST)
+[url_set.api_neutron]
+urls = []
+
+# providers: osmosisv2
+# https://cosmos.directory/osmosis/nodes (REST)
+[url_set.api_osmosis]
+urls = []
+
+# providers: dexter
+# https://cosmos.directory/persistence/nodes (REST)
+[url_set.api_persistence]
 urls = []
 
 # providers: shade
