@@ -335,6 +335,7 @@ contracts:
 
 min_providers:
   AMPKUJI: 1
+  FUZN: 1
   JUNO: 1
   KUJI: 1
   MNTA: 1
