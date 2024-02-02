@@ -270,7 +270,7 @@ base = "FUZN"
 quote = "USK"
 providers = ["finv2"]
 derivative = "twap"
-derivative_period = "30"
+derivative_period = "30m"
 
 [[currency_pairs]]
 base = "GLMR"

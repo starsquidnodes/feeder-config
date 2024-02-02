@@ -67,7 +67,7 @@ currency_pairs:
 
   FUZN-USK:
     providers: finv2
-    twap: 30
+    twap: 30m
 
   GLMR-USDT:
     providers: bitget, bybit, crypto, gate, huobi, kucoin, lbank, mexc, okx, xt
