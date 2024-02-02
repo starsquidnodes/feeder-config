@@ -22,13 +22,13 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "ARB"
 quote = "USD"
-providers = ["bitfinex", "coinbase", "crypto", "kraken"]
+providers = ["binanceus", "bitfinex", "coinbase", "crypto", "kraken"]
 
 [[currency_pairs]]
 base = "ARB"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
@@ -36,7 +36,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "xt",
@@ -45,13 +44,13 @@ providers = [
 [[currency_pairs]]
 base = "ATOM"
 quote = "USD"
-providers = ["coinbase", "kraken"]
+providers = ["binanceus", "coinbase", "kraken"]
 
 [[currency_pairs]]
 base = "ATOM"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "crypto",
@@ -60,7 +59,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "poloniex",
@@ -70,13 +68,13 @@ providers = [
 [[currency_pairs]]
 base = "AVAX"
 quote = "USD"
-providers = ["bitfinex", "coinbase", "kraken"]
+providers = ["binanceus", "bitfinex", "coinbase", "kraken"]
 
 [[currency_pairs]]
 base = "AVAX"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "crypto",
@@ -85,7 +83,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "poloniex",
@@ -102,18 +99,18 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "AXL"
 quote = "USD"
-providers = ["coinbase", "crypto", "kraken"]
+providers = ["binanceus", "coinbase", "crypto", "kraken"]
 
 [[currency_pairs]]
 base = "AXL"
 quote = "USDT"
-providers = ["bitget", "bybit", "gate", "huobi", "kucoin", "mexc"]
+providers = ["binanceus", "bitget", "bybit", "gate", "huobi", "kucoin"]
 
 [[currency_pairs]]
 base = "BAND"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "crypto",
     "gate",
@@ -128,7 +125,7 @@ providers = [
 base = "BNB"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
@@ -136,7 +133,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "poloniex",
@@ -146,13 +142,13 @@ providers = [
 [[currency_pairs]]
 base = "BTC"
 quote = "USD"
-providers = ["bitfinex", "coinbase"]
+providers = ["binanceus", "bitfinex", "coinbase"]
 
 [[currency_pairs]]
 base = "BTC"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "crypto",
@@ -161,7 +157,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "poloniex",
@@ -171,18 +166,18 @@ providers = [
 [[currency_pairs]]
 base = "CRO"
 quote = "USDT"
-providers = ["bitget", "crypto", "gate", "kucoin", "lbank", "mexc", "okx", "xt"]
+providers = ["bitget", "crypto", "gate", "kucoin", "lbank", "okx", "xt"]
 
 [[currency_pairs]]
 base = "DOT"
 quote = "USD"
-providers = ["bitfinex", "coinbase", "crypto", "kraken"]
+providers = ["binanceus", "bitfinex", "coinbase", "crypto", "kraken"]
 
 [[currency_pairs]]
 base = "DOT"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
@@ -190,7 +185,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "poloniex",
@@ -200,13 +194,13 @@ providers = [
 [[currency_pairs]]
 base = "ETH"
 quote = "USD"
-providers = ["bitfinex", "coinbase", "crypto"]
+providers = ["binanceus", "bitfinex", "coinbase", "crypto"]
 
 [[currency_pairs]]
 base = "ETH"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
@@ -215,7 +209,6 @@ providers = [
     "kraken",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "poloniex",
@@ -225,33 +218,32 @@ providers = [
 [[currency_pairs]]
 base = "FET"
 quote = "USD"
-providers = ["bitfinex", "coinbase", "kraken"]
+providers = ["binanceus", "bitfinex", "coinbase", "kraken"]
 
 [[currency_pairs]]
 base = "FET"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "crypto",
     "gate",
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "phemex",
 ]
 
 [[currency_pairs]]
 base = "FTM"
 quote = "USD"
-providers = ["bitfinex", "kraken"]
+providers = ["binanceus", "bitfinex", "kraken"]
 
 [[currency_pairs]]
 base = "FTM"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "crypto",
@@ -260,7 +252,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
 ]
@@ -276,7 +267,6 @@ derivative_period = "30"
 base = "GLMR"
 quote = "USDT"
 providers = [
-    "binance",
     "bitget",
     "bybit",
     "crypto",
@@ -284,7 +274,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "xt",
 ]
@@ -292,12 +281,12 @@ providers = [
 [[currency_pairs]]
 base = "HNT"
 quote = "USD"
-providers = ["coinbase", "crypto"]
+providers = ["binanceus", "coinbase", "crypto"]
 
 [[currency_pairs]]
 base = "HNT"
 quote = "USDT"
-providers = ["bitget", "bitmart", "bybit", "gate", "kucoin"]
+providers = ["binanceus", "bitget", "bitmart", "bybit", "gate", "kucoin"]
 
 [[currency_pairs]]
 base = "INJ"
@@ -308,7 +297,6 @@ providers = ["coinbase", "kraken"]
 base = "INJ"
 quote = "USDT"
 providers = [
-    "binance",
     "bitget",
     "bybit",
     "crypto",
@@ -317,7 +305,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "phemex",
 ]
 
@@ -332,36 +319,23 @@ quote = "USD"
 providers = ["kraken"]
 
 [[currency_pairs]]
-base = "JUNO"
-quote = "USDT"
-providers = ["mexc"]
-
-[[currency_pairs]]
 base = "KAVA"
 quote = "USD"
-providers = ["coinbase", "kraken"]
+providers = ["binanceus", "coinbase", "kraken"]
 
 [[currency_pairs]]
 base = "KAVA"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "crypto",
     "gate",
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "xt",
 ]
-
-[[currency_pairs]]
-base = "KUJI"
-quote = "USDT"
-providers = ["mexc"]
-derivative = "twap"
-derivative_period = "30m"
 
 [[currency_pairs]]
 base = "KUJI"
@@ -380,19 +354,18 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "LINK"
 quote = "USD"
-providers = ["coinbase", "crypto", "kraken"]
+providers = ["binanceus", "coinbase", "crypto", "kraken"]
 
 [[currency_pairs]]
 base = "LINK"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
     "huobi",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "xt",
@@ -407,7 +380,6 @@ providers = ["kraken"]
 base = "LUNA"
 quote = "USDT"
 providers = [
-    "binance",
     "bitget",
     "bybit",
     "gate",
@@ -415,7 +387,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "xt",
@@ -430,7 +401,6 @@ providers = ["crypto", "kraken"]
 base = "LUNC"
 quote = "USDT"
 providers = [
-    "binance",
     "bitget",
     "bybit",
     "gate",
@@ -438,7 +408,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "xt",
@@ -447,13 +416,13 @@ providers = [
 [[currency_pairs]]
 base = "MATIC"
 quote = "USD"
-providers = ["bitfinex", "coinbase", "crypto", "kraken"]
+providers = ["binanceus", "bitfinex", "coinbase", "crypto", "kraken"]
 
 [[currency_pairs]]
 base = "MATIC"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
@@ -461,7 +430,6 @@ providers = [
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "poloniex",
@@ -485,34 +453,33 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "NTRN"
 quote = "USDT"
-providers = ["binance", "bitget", "gate", "kucoin", "mexc", "phemex"]
+providers = ["bitget", "gate", "kucoin", "phemex"]
 
 [[currency_pairs]]
 base = "OSMO"
 quote = "USD"
-providers = ["coinbase", "crypto"]
+providers = ["crypto"]
 
 [[currency_pairs]]
 base = "OSMO"
 quote = "USDT"
-providers = ["binance", "bitget", "gate", "huobi", "kucoin", "lbank", "mexc"]
+providers = ["bitget", "gate", "huobi", "kucoin", "lbank"]
 
 [[currency_pairs]]
 base = "PAXG"
 quote = "USD"
-providers = ["kraken"]
+providers = ["binanceus", "kraken"]
 
 [[currency_pairs]]
 base = "PAXG"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "crypto",
     "kucoin",
     "lbank",
-    "mexc",
     "phemex",
 ]
 
@@ -540,7 +507,7 @@ derivative_period = "20m"
 [[currency_pairs]]
 base = "RIO"
 quote = "USDT"
-providers = ["mexc", "okx"]
+providers = ["okx"]
 
 [[currency_pairs]]
 base = "RLB"
@@ -557,7 +524,7 @@ providers = ["kraken"]
 [[currency_pairs]]
 base = "SCRT"
 quote = "USDT"
-providers = ["binance", "bybit", "gate", "huobi", "kucoin", "lbank", "mexc"]
+providers = ["bybit", "gate", "huobi", "kucoin", "lbank"]
 
 [[currency_pairs]]
 base = "SHD"
@@ -569,13 +536,13 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "SOL"
 quote = "USD"
-providers = ["coinbase", "kraken"]
+providers = ["binanceus", "coinbase", "kraken"]
 
 [[currency_pairs]]
 base = "SOL"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
@@ -637,13 +604,13 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "UNI"
 quote = "USD"
-providers = ["coinbase", "crypto", "kraken"]
+providers = ["binanceus", "coinbase", "crypto", "kraken"]
 
 [[currency_pairs]]
 base = "UNI"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
@@ -656,20 +623,19 @@ providers = [
 [[currency_pairs]]
 base = "USDC"
 quote = "USD"
-providers = ["kraken"]
+providers = ["binanceus", "kraken"]
 
 [[currency_pairs]]
 base = "USDC"
 quote = "USDT"
 providers = [
-    "binance",
+    "binanceus",
     "bitget",
     "bybit",
     "gate",
     "huobi",
     "kucoin",
     "lbank",
-    "mexc",
     "okx",
     "phemex",
     "xt",
@@ -695,12 +661,12 @@ providers = ["coinbase", "kraken"]
 [[currency_pairs]]
 base = "TIA"
 quote = "USDT"
-providers = ["binance", "bitget", "bybit", "gate", "huobi", "kucoin", "okx"]
+providers = ["bitget", "bybit", "gate", "huobi", "kucoin", "okx"]
 
 [[currency_pairs]]
 base = "WBTC"
 quote = "BTC"
-providers = ["binance", "coinbase", "kucoin", "okx"]
+providers = ["binanceus", "coinbase", "kucoin", "okx"]
 
 [[currency_pairs]]
 base = "WBTC"
@@ -711,7 +677,6 @@ providers = [
     "crypto",
     "gate",
     "hitbtc",
-    "mexc",
     "phemex",
     "poloniex",
 ]
@@ -725,13 +690,6 @@ providers = ["uniswapv3"]
 base = "WHALE"
 quote = "MNTA"
 providers = ["fin"]
-derivative = "twap"
-derivative_period = "30m"
-
-[[currency_pairs]]
-base = "WHALE"
-quote = "USDT"
-providers = ["mexc"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -763,6 +721,7 @@ derivative_period = "30m"
 [[provider_min_overrides]]
 denoms = [
     "AMPKUJI",
+    "FUZN",
     "JUNO",
     "KUJI",
     "MNTA",
