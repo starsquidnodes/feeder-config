@@ -9,6 +9,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("filename", type=str)
     parser.add_argument("--keep-urlsets", action="store_true")
+    parser.add_argument("-x", "--exclude", type=str, default="")
     return parser.parse_args()
 
 
@@ -45,6 +46,15 @@ def main():
                     ]
 
         providers = [x.strip() for x in cp_config["providers"].split(",")]
+
+        for x in args.exclude.split(","):
+            if x in providers:
+                providers.remove(x)
+
+        if len(providers) == 0:
+            old_base = base
+            continue
+
         twap = cp_config.get("twap")
         lines += [
             '',
