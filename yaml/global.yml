@@ -50,6 +50,11 @@ currency_pairs:
   DOT-USDT:
     providers: binance, bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
 
+  DYM-USD:
+    providers: kraken, bitfinex
+  DYM-USDT:
+    providers: binance, kucoin, bybit, mexc, gate, bitget
+
   ETH-USD:
     providers: bitfinex, coinbase, crypto
   ETH-USDT:
