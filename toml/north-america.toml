@@ -509,15 +509,22 @@ derivative_period = "30m"
 
 [[currency_pairs]]
 base = "RIO"
-quote = "ETH"
+quote = "WETH"
+providers = ["uniswapv3"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
+base = "RIO"
+quote = "WBNB"
 providers = ["pancakev3_bsc"]
 derivative = "twap"
-derivative_period = "20m"
+derivative_period = "30m"
 
 [[currency_pairs]]
 base = "RIO"
 quote = "USDT"
-providers = ["okx"]
+providers = ["huobi", "okx"]
 
 [[currency_pairs]]
 base = "RLB"
@@ -674,6 +681,13 @@ quote = "USDT"
 providers = ["bitget", "bybit", "gate", "huobi", "kucoin", "okx"]
 
 [[currency_pairs]]
+base = "WBNB"
+quote = "ETH"
+providers = ["pancakev3_bsc"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
 base = "WBTC"
 quote = "BTC"
 providers = ["binanceus", "coinbase", "kucoin", "okx"]
@@ -747,6 +761,7 @@ denoms = [
     "STKATOM",
     "STOSMO",
     "USK",
+    "WBNB",
     "WETH",
     "WHALE",
     "WINK",
@@ -852,7 +867,8 @@ WHALEOSMO = "1318"
 NTRNUSDC = "1324"
 
 [contract_addresses.pancakev3_bsc]
-ETHRIO = "0x043681828303cdf9398f0768bf1da99feebf7ee8"
+ETHWBNB = "0x7d05c84581f0c41ad80ddf677a510360bae09a5a"
+RIOWBNB = "0x3b4568933f86122e3a19814b1d42aa27fe429c3b"
 
 [contract_addresses.shade]
 ATOMSTKATOM = "secret18537ttv4l4k2ea0xp6ay3sv4c243fyjtj2uqz7"
