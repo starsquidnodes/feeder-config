@@ -797,6 +797,10 @@ threshold = "2"
 base = "STKATOM"
 threshold = "2"
 
+[[deviation_thresholds]]
+base = "RIO"
+threshold = "2"
+
 #
 #  ENDPOINTS
 # ------------------------------------------------------------
