@@ -528,7 +528,7 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "RIO"
 quote = "USDT"
-providers = ["huobi", "okx"]
+providers = ["bingx", "okx"]
 
 [[currency_pairs]]
 base = "RLB"

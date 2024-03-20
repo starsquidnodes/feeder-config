@@ -165,7 +165,7 @@ currency_pairs:
     providers: pancakev3_bsc
     twap: 30m
   RIO-USDT:
-    providers: okx, huobi
+    providers: okx, bingx
 
   RLB-WETH:
     providers: uniswapv3
