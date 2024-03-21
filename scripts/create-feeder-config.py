@@ -113,7 +113,7 @@ def main():
 
     lines += header("endpoints")
 
-    for ep_name, ep_config in config.get("endpoints").items():
+    for ep_name, ep_config in config.get("endpoints", {}).items():
         lines += [
             '',
             '[[provider_endpoints]]',
