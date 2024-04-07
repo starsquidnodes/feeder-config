@@ -5,7 +5,7 @@ currency_pairs:
     providers: gate, huobi, kucoin
 
   AMPKUJI-KUJI:
-    providers: finv2
+    providers: fin
     twap: 30m
 
   ARB-USD:
@@ -71,7 +71,7 @@ currency_pairs:
     providers: bitget,  bybit,  crypto,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex, binanceus
 
   FUZN-USK:
-    providers: finv2
+    providers: fin
     twap: 30m
 
   GLMR-USDT:
@@ -130,11 +130,11 @@ currency_pairs:
     providers: bitget,  bybit,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  poloniex,  xt, binanceus
 
   MNTA-USDC:
-    providers: finv2
+    providers: fin
     twap: 30m
 
   NSTK-USK:
-    providers: finv2
+    providers: fin
     twap: 30m
 
   NTRN-USDT:
@@ -151,11 +151,11 @@ currency_pairs:
     providers: bitget,  bybit,  crypto,  kucoin,  lbank,  mexc,  phemex, binanceus
 
   QCKUJI-KUJI:
-    providers: finv2
+    providers: fin
     twap: 30m
 
   QCMNTA-MNTA:
-    providers: finv2
+    providers: fin
     twap: 30m
 
   RIO-WETH:
@@ -177,7 +177,7 @@ currency_pairs:
     providers: bybit, gate, huobi, kucoin, lbank, mexc
 
   SHD-MNTA:
-    providers: finv2, shade
+    providers: fin, shade
     twap: 30m
 
   SOL-USD:
@@ -186,21 +186,21 @@ currency_pairs:
     providers: huobi,  okx,  bybit,  xt,  gate,  bitget,  kucoin, binanceus
 
   SOMM-MNTA:
-    providers: finv2
+    providers: fin
     twap: 30m
   SOMM-OSMO:
     providers: osmosisv2
     twap: 30m
 
   STARS-MNTA:
-    providers: finv2
+    providers: fin
     twap: 30m
   STARS-OSMO:
     providers: osmosisv2
     twap: 30m
 
   STATOM-ATOM:
-    providers: osmosisv2, finv2, astroport_neutron
+    providers: osmosisv2, fin, astroport_neutron
     twap: 30m
   
   STKATOM-ATOM:
@@ -225,7 +225,7 @@ currency_pairs:
     providers: binanceus, coinbase, crypto, gate, kraken
 
   USK-USDC:
-    providers: finv2
+    providers: fin
     twap: 30m
 
   TIA-USD:
@@ -256,7 +256,7 @@ currency_pairs:
     twap: 30m
 
   WINK-USK:
-    providers: finv2
+    providers: fin
     twap: 30m
 
   WSTETH-WETH:

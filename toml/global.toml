@@ -15,7 +15,7 @@ providers = ["gate", "huobi", "kucoin"]
 [[currency_pairs]]
 base = "AMPKUJI"
 quote = "KUJI"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -269,7 +269,7 @@ providers = [
 [[currency_pairs]]
 base = "FUZN"
 quote = "USK"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -453,14 +453,14 @@ providers = [
 [[currency_pairs]]
 base = "MNTA"
 quote = "USDC"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
 base = "NSTK"
 quote = "USK"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -500,14 +500,14 @@ providers = [
 [[currency_pairs]]
 base = "QCKUJI"
 quote = "KUJI"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
 base = "QCMNTA"
 quote = "MNTA"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -550,7 +550,7 @@ providers = ["binance", "bybit", "gate", "huobi", "kucoin", "lbank"]
 [[currency_pairs]]
 base = "SHD"
 quote = "MNTA"
-providers = ["finv2", "shade"]
+providers = ["fin", "shade"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -576,7 +576,7 @@ providers = [
 [[currency_pairs]]
 base = "SOMM"
 quote = "MNTA"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -590,7 +590,7 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "STARS"
 quote = "MNTA"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -604,7 +604,7 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "STATOM"
 quote = "ATOM"
-providers = ["astroport_neutron", "finv2", "osmosisv2"]
+providers = ["astroport_neutron", "fin", "osmosisv2"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -670,7 +670,7 @@ providers = ["binanceus", "coinbase", "crypto", "gate", "kraken"]
 [[currency_pairs]]
 base = "USK"
 quote = "USDC"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -731,7 +731,7 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "WINK"
 quote = "USK"
-providers = ["finv2"]
+providers = ["fin"]
 derivative = "twap"
 derivative_period = "30m"
 
