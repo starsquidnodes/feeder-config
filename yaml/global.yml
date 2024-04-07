@@ -6,7 +6,7 @@ currency_pairs:
 
   AMPKUJI-KUJI:
     providers: finv2
-    twap: 30m
+    twap: 6h
 
   ARB-USD:
     providers: bitfinex, coinbase, crypto, kraken
@@ -152,11 +152,11 @@ currency_pairs:
 
   QCKUJI-KUJI:
     providers: finv2
-    twap: 30m
+    twap: 6h
 
   QCMNTA-MNTA:
     providers: finv2
-    twap: 30m
+    twap: 6h
 
   RIO-WETH:
     providers: uniswapv3
@@ -201,15 +201,15 @@ currency_pairs:
 
   STATOM-ATOM:
     providers: osmosisv2, finv2, astroport_neutron
-    twap: 30m
+    twap: 6h
   
   STKATOM-ATOM:
     providers: shade, osmosisv2, dexter
-    twap: 30m
+    twap: 6h
 
   STOSMO-OSMO:
     providers: osmosisv2
-    twap: 30m
+    twap: 6h
 
   UNI-USD:
     providers: coinbase, kraken, crypto
