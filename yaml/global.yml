@@ -5,7 +5,7 @@ currency_pairs:
     providers: gate, huobi, kucoin
 
   AMPKUJI-KUJI:
-    providers: finv2
+    providers: finv2, unstake
     twap: 30m
 
   ARB-USD:
@@ -23,9 +23,6 @@ currency_pairs:
   AVAX-USDT:
     providers: binance, bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
 
-  AXL-MNTA:
-    providers: fin
-    twap: 30m
   AXL-USD:
     providers: coinbase, crypto, kraken
   AXL-USDT:
@@ -41,6 +38,9 @@ currency_pairs:
     providers: bitfinex, coinbase
   BTC-USDT:
     providers: binance, bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+
+  CACAO-BTC:
+    providers: maya
 
   CRO-USDT:
     providers: bitget, crypto, gate, kucoin, lbank, mexc, okx, xt
@@ -100,13 +100,19 @@ currency_pairs:
     providers: binance, bitget, crypto, gate, huobi, kucoin, lbank, mexc, xt
 
   KUJI-USDT:
-    providers: mexc
-    twap: 30m
+    providers: mexc, coinex, helix
+    twap: 10m
   KUJI-USDC:
-    providers: fin
+    providers: finv2
     twap: 30m
   KUJI-WETH:
-    providers: camelotv3
+    providers: camelotv3, velodromev2
+    twap: 30m
+  KUJI-CACAO:
+    providers: maya
+    twap: 30m
+  KUJI-OSMO:
+    providers: osmosisv2
     twap: 30m
 
   LINK-USD:
@@ -138,7 +144,7 @@ currency_pairs:
     twap: 30m
 
   NTRN-USDT:
-    providers: binance, kucoin, gate, mexc, bitget, phemex
+    providers: binance, bitmart, kucoin, gate, mexc, bitget, phemex
 
   OSMO-USD:
     providers: crypto, coinbase
@@ -151,11 +157,11 @@ currency_pairs:
     providers: binance, bitget, bybit, crypto, kucoin, lbank, mexc, phemex
 
   QCKUJI-KUJI:
-    providers: finv2
+    providers: finv2, unstake
     twap: 30m
 
   QCMNTA-MNTA:
-    providers: finv2
+    providers: finv2, unstake
     twap: 30m
 
   RIO-WETH:
@@ -165,7 +171,7 @@ currency_pairs:
     providers: pancakev3_bsc
     twap: 30m
   RIO-USDT:
-    providers: okx, bingx
+    providers: okx, bingx, kucoin, coinex, pionex
 
   RLB-WETH:
     providers: uniswapv3
@@ -191,6 +197,8 @@ currency_pairs:
   SOMM-OSMO:
     providers: osmosisv2
     twap: 30m
+  SOMM-USDT:
+    providers: gate, coinex
 
   STARS-MNTA:
     providers: finv2
@@ -246,13 +254,16 @@ currency_pairs:
     providers: uniswapv3
 
   WHALE-MNTA:
-    providers: fin
+    providers: finv2
     twap: 30m
   WHALE-USDT:
     providers: mexc
     twap: 30m
   WHALE-OSMO:
     providers: osmosisv2
+    twap: 30m
+  WHALE-USDC:
+    providers: whitewhale_whale
     twap: 30m
 
   WINK-USK:
@@ -288,12 +299,22 @@ endpoints:
     url_set: fin
   finv2:
     url_set: api_kujira
+    volume_blocks: 10
+  helix:
+    url_set: api_injective
   osmosisv2:
     url_set: api_osmosis
+    volume_blocks: 10
   shade:
     url_set: api_secret
   uniswapv3:
     url_set: rpc_ethereum
+  unstake:
+    url_set: api_kujira
+  velodromev2:
+    url_set: rpc_optimism
+  whitewhale_whale:
+    url_set: api_migaloo
 
 contracts:
   astroport_neutron:
@@ -321,14 +342,17 @@ contracts:
     USDCUSK: kujira15a657mgszm30vdhytpmfslcyc4cztn5lsuv9rxzwdqmuwgd8znps8l3yy2
     WHALEMNTA: kujira1865zmuchjd0g0xr2q5n6hm747s8xju5k8h6mympk4vmqefkuy3hqc66tcw
     WINKUSK: kujira1qxtd87qus6uzvqs4jv9r0j9ccd4yla42s6qag7y8fp7hhv68nzas6hqxgw
+  maya:
+    BTCCACAO: BTC.BTC
+    KUJICACAO: KUJI.KUJI
   osmosisv2:
     ATOMSTKATOM: "886"
     JUNOOSMO: "1097"
+    KUJIOSMO: "744"
     MNTAOSMO: "1215"
     # SOMMOSMO: "1103"
     SOMMOSMO: "627"
-    # STARSOSMO: "1096"
-    STARSOSMO: "604"
+    STARSOSMO: "1096"
     STATOMATOM: "1136"
     STOSMOOSMO: "833"
     WHALEOSMO: "1318"
@@ -344,12 +368,21 @@ contracts:
     USDCWETH: "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
     WETHRIO: "0x5b7e3e37a1aa6369386e5939053779abd3597508"
     WSTETHWETH: "0x109830a1AAaD605BbF02a9dFA7B0B92EC2FB7dAa"
+  unstake:
+    AMPKUJIKUJI: kujira1x0rx0543jpjfpuskusaca54d2t8f6v6m3eaqwpgahxtmq7kc7vls2j3hth
+    QCKUJIKUJI: kujira1hmk8wy7vk0v0vpqasv6zv7hm3n2vce4m3yzkns6869j8h4u5qk2q0xndku
+    QCMNTAMNTA: kujira1ql30ep2a4f3cswhrr8sjp54t56l7qz7n7jzcnux2m286k6ev7s8q6m8jnp
+  velodromev2:
+    KUJIWETH: "0x763C9dC392B6BEFe79Fa227056dD9279bAbb4E14"
+  whitewhale_whale:
+    WHALEUSDC: migaloo1xv4ql6t6r8zawlqn2tyxqsrvjpmjfm6kvdfvytaueqe3qvcwyr7shtx0hj
 
 min_providers:
   AMPKUJI: 1
+  CACAO: 1
   FUZN: 1
   JUNO: 1
-  KUJI: 1
+  KUJI: 2
   MNTA: 1
   NSTK: 1
   QCKUJI: 1
@@ -371,8 +404,31 @@ min_providers:
 
 deviation_thresholds:
   KUJI: 2
-  USDT: 2
-  WHALE: 2
+  RIO: 2
+  SOMM: 2
   STATOM: 2
   STKATOM: 2
-  RIO: 2
+  USDT: 2
+  WHALE: 2
+
+decimals:
+  osmosisv2:
+    JUNO: 6
+    KUJI: 6
+    OSMO: 6
+    SOMM: 6
+    STARS: 6
+    WHALE: 6
+  finv2:
+    FUZN: 6
+    KUJI: 6
+    MNTA: 6
+    QCKUJI: 6
+    QCMNTA: 6
+    SOMM: 6
+    STARS: 6
+    USDC: 6
+    USK: 6
+    WHALE: 6
+
+    
