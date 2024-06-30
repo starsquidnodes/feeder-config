@@ -62,6 +62,9 @@ currency_pairs:
   USDC-USDT:
     providers: binance, bitget, bybit, gate, huobi, kucoin, lbank, mexc, okx, phemex, xt
 
+  USDT-USD:
+    providers: binanceus, coinbase, crypto, gate, kraken
+
   USK-USDC:
     providers: finv2
     twap: 30m
