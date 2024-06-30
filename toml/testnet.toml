@@ -176,6 +176,11 @@ providers = [
 ]
 
 [[currency_pairs]]
+base = "USDT"
+quote = "USD"
+providers = ["binanceus", "coinbase", "crypto", "gate", "kraken"]
+
+[[currency_pairs]]
 base = "USK"
 quote = "USDC"
 providers = ["finv2"]
