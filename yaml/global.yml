@@ -315,6 +315,7 @@ endpoints:
     url_set: rpc_optimism
   whitewhale_whale:
     url_set: api_migaloo
+    volume_blocks: 10
 
 contracts:
   astroport_neutron:
@@ -430,5 +431,15 @@ decimals:
     USDC: 6
     USK: 6
     WHALE: 6
+  whitewhale_whale:
+    USDC: 6
+    WHALE: 6
+  unstake:
+    KUJI: 6
+    MNTA: 6
 
-    
+periods:
+  unstake:
+    AMPKUJIKUJI: 14
+    QCKUJIKUJI: 14
+    QCMNTAMNTA: 21

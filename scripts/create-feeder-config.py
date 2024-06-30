@@ -151,6 +151,14 @@ def main():
         for symbol, decimals in d_config.items():
             lines += [f'{symbol} = {decimals}']
 
+    for d_provider, d_config in config.get("periods", {}).items():
+        lines += [
+            '',
+            f'[periods.{d_provider}]'
+        ]
+        for symbol, decimals in d_config.items():
+            lines += [f'{symbol} = {decimals}']
+
     for line in lines:
         print(line)
 

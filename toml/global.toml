@@ -741,7 +741,7 @@ providers = ["uniswapv3"]
 [[currency_pairs]]
 base = "WHALE"
 quote = "MNTA"
-providers = ["fin"]
+providers = ["finv2"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -889,6 +889,7 @@ url_set = "rpc_optimism"
 [[provider_endpoints]]
 name = "whitewhale_whale"
 url_set = "api_migaloo"
+volume_blocks = 10
 
 [contract_addresses.astroport_neutron]
 NTRNATOM = "neutron1e22zh5p8meddxjclevuhjmfj69jxfsa8uu3jvht72rv9d8lkhves6t8veq"
@@ -929,7 +930,7 @@ JUNOOSMO = "1097"
 KUJIOSMO = "744"
 MNTAOSMO = "1215"
 SOMMOSMO = "627"
-STARSOSMO = "604"
+STARSOSMO = "1096"
 STATOMATOM = "1136"
 STOSMOOSMO = "833"
 WHALEOSMO = "1318"
@@ -979,3 +980,16 @@ STARS = 6
 USDC = 6
 USK = 6
 WHALE = 6
+
+[decimals.whitewhale_whale]
+USDC = 6
+WHALE = 6
+
+[decimals.unstake]
+KUJI = 6
+MNTA = 6
+
+[periods.unstake]
+AMPKUJIKUJI = 14
+QCKUJIKUJI = 14
+QCMNTAMNTA = 21
