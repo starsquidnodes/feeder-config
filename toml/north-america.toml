@@ -202,7 +202,7 @@ providers = ["bitget", "bybit", "gate", "kucoin"]
 [[currency_pairs]]
 base = "DYDX"
 quote = "USDT"
-providers = ["", "binance", "gate", "huobi", "kucoin", "okx"]
+providers = ["binance", "gate", "huobi", "kucoin", "okx"]
 
 [[currency_pairs]]
 base = "DYDX"

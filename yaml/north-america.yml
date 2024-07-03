@@ -56,7 +56,7 @@ currency_pairs:
     providers: kucoin, bybit, mexc, gate, bitget
 
   DYDX-USDT:
-    providers: binance, huobi, okx, gate, kucoin, 
+    providers: binance, huobi, okx, gate, kucoin
   DYDX-USDC:
     providers: bitget
 
