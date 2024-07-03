@@ -201,7 +201,8 @@ currency_pairs:
     providers: osmosisv2
     twap: 30m
   SOMM-USDT:
-    providers: gate, coinex
+    # providers: gate, coinex
+    providers: coinex
 
   STARS-MNTA:
     providers: finv2

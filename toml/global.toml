@@ -616,7 +616,7 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "SOMM"
 quote = "USDT"
-providers = ["coinex", "gate"]
+providers = ["coinex"]
 
 [[currency_pairs]]
 base = "STARS"

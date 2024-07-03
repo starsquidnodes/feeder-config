@@ -610,6 +610,11 @@ derivative = "twap"
 derivative_period = "30m"
 
 [[currency_pairs]]
+base = "SOMM"
+quote = "USDT"
+providers = ["coinex"]
+
+[[currency_pairs]]
 base = "STARS"
 quote = "MNTA"
 providers = ["finv2"]
