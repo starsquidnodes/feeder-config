@@ -278,6 +278,11 @@ currency_pairs:
     providers: uniswapv3
     twap: 30m
 
+provider_weights:
+  JUNO:
+    osmosisv2: 2
+    kraken: 1
+
 url_sets:
   api_kujira:
     - https://example
