@@ -76,9 +76,14 @@ This config makes use of (almost) all available price sources including `binance
 Required URL sets:
 
 ```toml
-# providers: finv2
+# providers: finv2, unstake
 # https://cosmos.directory/kujira/nodes (REST)
 [url_set.api_kujira]
+urls = []
+
+# providers: whitewhale_whale
+# https://cosmos.directory/migaloo/nodes (REST)
+[url_set.api_migaloo]
 urls = []
 
 # providers: astroport_neutron
@@ -101,14 +106,14 @@ urls = []
 [url_set.api_secret]
 urls = []
 
+# providers: camelotv3
+# https://ethereumnodes.com
+[url_set.rpc_arbitrum]
+urls = []
+
 # providers: uniswapv3
 # https://ethereumnodes.com
 [url_set.rpc_ethereum]
-urls = []
-
-# providers: fin
-# ["https://api.kujira.app", "https://kaiyo-1.gigalixirapp.com"]
-[url_set.fin]
 urls = []
 ```
 
@@ -119,9 +124,14 @@ This config is meant for nodes running in North America and are geo blocked by `
 Required URL sets:
 
 ```toml
-# providers: finv2
+# providers: finv2, unstake
 # https://cosmos.directory/kujira/nodes (REST)
 [url_set.api_kujira]
+urls = []
+
+# providers: whitewhale_whale
+# https://cosmos.directory/migaloo/nodes (REST)
+[url_set.api_migaloo]
 urls = []
 
 # providers: astroport_neutron
@@ -144,14 +154,14 @@ urls = []
 [url_set.api_secret]
 urls = []
 
+# providers: camelotv3
+# https://ethereumnodes.com
+[url_set.rpc_arbitrum]
+urls = []
+
 # providers: uniswapv3
 # https://ethereumnodes.com
 [url_set.rpc_ethereum]
-urls = []
-
-# providers: fin
-# ["https://api.kujira.app", "https://kaiyo-1.gigalixirapp.com"]
-[url_set.fin]
 urls = []
 ```
 

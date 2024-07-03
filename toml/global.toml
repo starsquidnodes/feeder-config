@@ -350,7 +350,7 @@ providers = [
 [[currency_pairs]]
 base = "KUJI"
 quote = "USDT"
-providers = ["coinex", "helix"]
+providers = ["coinex"]
 derivative = "twap"
 derivative_period = "10m"
 
@@ -364,7 +364,7 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "KUJI"
 quote = "WETH"
-providers = ["camelotv3", "velodromev2"]
+providers = ["camelotv3"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -381,6 +381,13 @@ quote = "OSMO"
 providers = ["osmosisv2"]
 derivative = "twap"
 derivative_period = "30m"
+
+[[currency_pairs]]
+base = "KUJI"
+quote = "USD"
+providers = ["kraken"]
+derivative = "twap"
+derivative_period = "10m"
 
 [[currency_pairs]]
 base = "LINK"
@@ -849,26 +856,22 @@ name = "astroport_neutron"
 url_set = "api_neutron"
 
 [[provider_endpoints]]
+name = "camelotv3"
+url_set = "rpc_arbitrum"
+
+[[provider_endpoints]]
 name = "dexter"
 url_set = "api_persistence"
 
 [[provider_endpoints]]
-name = "fin"
-url_set = "fin"
-
-[[provider_endpoints]]
 name = "finv2"
 url_set = "api_kujira"
-volume_blocks = 10
-
-[[provider_endpoints]]
-name = "helix"
-url_set = "api_injective"
+volume_blocks = 20
 
 [[provider_endpoints]]
 name = "osmosisv2"
 url_set = "api_osmosis"
-volume_blocks = 10
+volume_blocks = 20
 
 [[provider_endpoints]]
 name = "shade"
@@ -883,13 +886,9 @@ name = "unstake"
 url_set = "api_kujira"
 
 [[provider_endpoints]]
-name = "velodromev2"
-url_set = "rpc_optimism"
-
-[[provider_endpoints]]
 name = "whitewhale_whale"
 url_set = "api_migaloo"
-volume_blocks = 10
+volume_blocks = 20
 
 [contract_addresses.astroport_neutron]
 NTRNATOM = "neutron1e22zh5p8meddxjclevuhjmfj69jxfsa8uu3jvht72rv9d8lkhves6t8veq"
@@ -973,13 +972,13 @@ WHALE = 6
 FUZN = 6
 KUJI = 6
 MNTA = 6
-QCKUJI = 6
-QCMNTA = 6
+NSTK = 6
 SOMM = 6
 STARS = 6
 USDC = 6
 USK = 6
 WHALE = 6
+WINK = 6
 
 [decimals.whitewhale_whale]
 USDC = 6
@@ -988,6 +987,10 @@ WHALE = 6
 [decimals.unstake]
 KUJI = 6
 MNTA = 6
+
+[decimals.camelotv3]
+KUJI = 6
+WETH = 18
 
 [periods.unstake]
 AMPKUJIKUJI = 14

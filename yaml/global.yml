@@ -100,13 +100,13 @@ currency_pairs:
     providers: binance, bitget, crypto, gate, huobi, kucoin, lbank, mexc, xt
 
   KUJI-USDT:
-    providers: mexc, coinex, helix
+    providers: mexc, coinex
     twap: 10m
   KUJI-USDC:
     providers: finv2
     twap: 30m
   KUJI-WETH:
-    providers: camelotv3, velodromev2
+    providers: camelotv3
     twap: 30m
   KUJI-CACAO:
     providers: maya
@@ -114,6 +114,9 @@ currency_pairs:
   KUJI-OSMO:
     providers: osmosisv2
     twap: 30m
+  KUJI-USD:
+    providers: kraken
+    twap: 10m
 
   LINK-USD:
     providers: coinbase, kraken, crypto
@@ -285,37 +288,34 @@ url_sets:
     - https://example
   api_secret:
     - https://example
+  rpc_arbitrum:
+    - https://example
   rpc_ethereum:
     - https://example
-  fin:
-  - https://example
+
 
 endpoints:
   astroport_neutron:
     url_set: api_neutron
+  camelotv3:
+    url_set: rpc_arbitrum
   dexter:
     url_set: api_persistence
-  fin:
-    url_set: fin
   finv2:
     url_set: api_kujira
-    volume_blocks: 10
-  helix:
-    url_set: api_injective
+    volume_blocks: 20
   osmosisv2:
     url_set: api_osmosis
-    volume_blocks: 10
+    volume_blocks: 20
   shade:
     url_set: api_secret
   uniswapv3:
     url_set: rpc_ethereum
   unstake:
     url_set: api_kujira
-  velodromev2:
-    url_set: rpc_optimism
   whitewhale_whale:
     url_set: api_migaloo
-    volume_blocks: 10
+    volume_blocks: 20
 
 contracts:
   astroport_neutron:
@@ -424,19 +424,22 @@ decimals:
     FUZN: 6
     KUJI: 6
     MNTA: 6
-    QCKUJI: 6
-    QCMNTA: 6
+    NSTK: 6
     SOMM: 6
     STARS: 6
     USDC: 6
     USK: 6
     WHALE: 6
+    WINK: 6
   whitewhale_whale:
     USDC: 6
     WHALE: 6
   unstake:
     KUJI: 6
     MNTA: 6
+  camelotv3:
+    KUJI: 6
+    WETH: 18
 
 periods:
   unstake:
