@@ -9,35 +9,35 @@ currency_pairs:
     twap: 30m
 
   ARB-USD:
-    providers: bitfinex,  coinbase,  crypto,  kraken, binanceus
+    providers: bitfinex, coinbase, crypto, kraken, binanceus
   ARB-USDT:
-    providers: bitget,  bybit,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  xt, binanceus
+    providers: bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, xt, binanceus
 
   ATOM-USD:
-    providers: coinbase,  kraken, binanceus
+    providers: coinbase, kraken, binanceus
   ATOM-USDT:
-    providers: bitget,  bybit,  crypto,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  poloniex,  xt, binanceus
+    providers: bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
   AVAX-USD:
-    providers: bitfinex,  coinbase,  kraken, binanceus
+    providers: bitfinex, coinbase, kraken, binanceus
   AVAX-USDT:
-    providers: bitget,  bybit,  crypto,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  poloniex,  xt, binanceus
+    providers: bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
   AXL-USD:
-    providers: coinbase,  crypto,  kraken, binanceus
+    providers: coinbase, crypto, kraken, binanceus
   AXL-USDT:
-    providers: huobi,  bybit,  mexc,  bitget,  kucoin,  gate, binanceus
+    providers: huobi, bybit, mexc, bitget, kucoin, gate, binanceus
 
   BAND-USDT:
-    providers: bitget,  crypto,  gate,  hitbtc,  huobi,  kucoin,  okx,  phemex, binanceus
+    providers: bitget, crypto, gate, hitbtc, huobi, kucoin, okx, phemex, binanceus
 
   BNB-USDT:
-    providers: bitget,  bybit,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  poloniex,  xt, binanceus
+    providers: bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
   BTC-USD:
-    providers: bitfinex,  coinbase, binanceus
+    providers: bitfinex, coinbase, binanceus
   BTC-USDT:
-    providers: bitget,  bybit,  crypto,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  poloniex,  xt, binanceus
+    providers: bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
   CACAO-BTC:
     providers: maya
@@ -46,29 +46,34 @@ currency_pairs:
     providers: bitget, crypto, gate, kucoin, lbank, mexc, okx, xt
 
   DOT-USD:
-    providers: bitfinex,  coinbase,  crypto,  kraken, binanceus
+    providers: bitfinex, coinbase, crypto, kraken, binanceus
   DOT-USDT:
-    providers: bitget,  bybit,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  poloniex,  xt, binanceus
+    providers: bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
   DYM-USD:
     providers: kraken, bitfinex
   DYM-USDT:
     providers: kucoin, bybit, mexc, gate, bitget
 
+  DYDX-USDT:
+    providers: binance, huobi, okx, gate, kucoin, 
+  DYDX-USDC:
+    providers: bitget
+
   ETH-USD:
-    providers: bitfinex,  coinbase,  crypto, binanceus
+    providers: bitfinex, coinbase, crypto, binanceus
   ETH-USDT:
-    providers: bitget,  bybit,  gate,  hitbtc,  huobi,  kraken,  kucoin,  lbank,  mexc,  okx,  phemex,  poloniex,  xt, binanceus
+    providers: bitget, bybit, gate, hitbtc, huobi, kraken, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
   FET-USD:
-    providers: bitfinex,  coinbase,  kraken, binanceus
+    providers: bitfinex, coinbase, kraken, binanceus
   FET-USDT:
-    providers: bitget,  crypto,  gate,  huobi,  kucoin,  lbank,  mexc,  phemex, binanceus
+    providers: bitget, crypto, gate, huobi, kucoin, lbank, mexc, phemex, binanceus
 
   FTM-USD:
-    providers: bitfinex,  kraken, binanceus
+    providers: bitfinex, kraken, binanceus
   FTM-USDT:
-    providers: bitget,  bybit,  crypto,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex, binanceus
+    providers: bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, binanceus
 
   FUZN-USK:
     providers: finv2
@@ -78,9 +83,9 @@ currency_pairs:
     providers: bitget, bybit, crypto, gate, huobi, kucoin, lbank, mexc, okx, xt
 
   HNT-USD:
-    providers: coinbase,  crypto, binanceus
+    providers: coinbase, crypto, binanceus
   HNT-USDT:
-    providers: bitget,  gate,  kucoin,  bitmart,  bybit, binanceus
+    providers: bitget, gate, kucoin, bitmart, bybit, binanceus
 
   INJ-USD:
     providers: coinbase, kraken
@@ -95,9 +100,9 @@ currency_pairs:
     providers: mexc
 
   KAVA-USD:
-    providers: coinbase,  kraken, binanceus
+    providers: coinbase, kraken, binanceus
   KAVA-USDT:
-    providers: bitget,  crypto,  gate,  huobi,  kucoin,  lbank,  mexc,  xt, binanceus
+    providers: bitget, crypto, gate, huobi, kucoin, lbank, mexc, xt, binanceus
 
   KUJI-USDT:
     providers: mexc, coinex
@@ -119,9 +124,9 @@ currency_pairs:
     twap: 10m
 
   LINK-USD:
-    providers: coinbase,  kraken,  crypto, binanceus
+    providers: coinbase, kraken, crypto, binanceus
   LINK-USDT:
-    providers: okx,  lbank,  bybit,  gate,  phemex,  xt,  bitget,  huobi,  mexc, binanceus
+    providers: okx, lbank, bybit, gate, phemex, xt, bitget, huobi, mexc, binanceus
 
   LUNA-USD:
     providers: kraken
@@ -134,9 +139,9 @@ currency_pairs:
     providers: bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, xt
 
   MATIC-USD:
-    providers: bitfinex,  coinbase,  crypto,  kraken, binanceus
+    providers: bitfinex, coinbase, crypto, kraken, binanceus
   MATIC-USDT:
-    providers: bitget,  bybit,  gate,  hitbtc,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  poloniex,  xt, binanceus
+    providers: bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
   MNTA-USDC:
     providers: finv2
@@ -157,7 +162,7 @@ currency_pairs:
   PAXG-USD:
     providers: kraken, binanceus
   PAXG-USDT:
-    providers: bitget,  bybit,  crypto,  kucoin,  lbank,  mexc,  phemex, binanceus
+    providers: bitget, bybit, crypto, kucoin, lbank, mexc, phemex, binanceus
 
   QCKUJI-KUJI:
     providers: finv2, unstake
@@ -190,9 +195,9 @@ currency_pairs:
     twap: 30m
 
   SOL-USD:
-    providers: coinbase,  kraken, binanceus
+    providers: coinbase, kraken, binanceus
   SOL-USDT:
-    providers: huobi,  okx,  bybit,  xt,  gate,  bitget,  kucoin, binanceus
+    providers: huobi, okx, bybit, xt, gate, bitget, kucoin, binanceus
 
   SOMM-MNTA:
     providers: finv2
@@ -224,14 +229,14 @@ currency_pairs:
     twap: 30m
 
   UNI-USD:
-    providers: coinbase,  kraken,  crypto, binanceus
+    providers: coinbase, kraken, crypto, binanceus
   UNI-USDT:
-    providers: okx,  lbank,  bybit,  gate,  phemex,  bitget,  huobi, binanceus
+    providers: okx, lbank, bybit, gate, phemex, bitget, huobi, binanceus
 
   USDC-USD:
     providers: kraken, binanceus
   USDC-USDT:
-    providers: bitget,  bybit,  gate,  huobi,  kucoin,  lbank,  mexc,  okx,  phemex,  xt, binanceus
+    providers: bitget, bybit, gate, huobi, kucoin, lbank, mexc, okx, phemex, xt, binanceus
 
   USDT-USD:
     providers: binanceus, coinbase, crypto, gate, kraken
@@ -250,7 +255,7 @@ currency_pairs:
     twap: 30m
 
   WBTC-BTC:
-    providers: coinbase,  kucoin,  okx, binanceus
+    providers: coinbase, kucoin, okx, binanceus
   WBTC-USDT:
     providers: bitget, bybit, crypto, gate, hitbtc, mexc, phemex, poloniex
 

@@ -190,6 +190,16 @@ providers = [
 ]
 
 [[currency_pairs]]
+base = "DYDX"
+quote = "USDT"
+providers = ["", "binance", "gate", "huobi", "kucoin", "okx"]
+
+[[currency_pairs]]
+base = "DYDX"
+quote = "USDC"
+providers = ["bitget"]
+
+[[currency_pairs]]
 base = "DYM"
 quote = "USD"
 providers = ["bitfinex", "kraken"]

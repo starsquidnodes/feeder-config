@@ -200,6 +200,16 @@ quote = "USDT"
 providers = ["bitget", "bybit", "gate", "kucoin"]
 
 [[currency_pairs]]
+base = "DYDX"
+quote = "USDT"
+providers = ["", "binance", "gate", "huobi", "kucoin", "okx"]
+
+[[currency_pairs]]
+base = "DYDX"
+quote = "USDC"
+providers = ["bitget"]
+
+[[currency_pairs]]
 base = "ETH"
 quote = "USD"
 providers = ["binanceus", "bitfinex", "coinbase", "crypto"]
