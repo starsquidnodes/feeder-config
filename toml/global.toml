@@ -723,13 +723,6 @@ quote = "USDT"
 providers = ["binance", "bitget", "bybit", "gate", "huobi", "kucoin", "okx"]
 
 [[currency_pairs]]
-base = "WBNB"
-quote = "ETH"
-providers = ["pancakev3_bsc"]
-derivative = "twap"
-derivative_period = "30m"
-
-[[currency_pairs]]
 base = "WBTC"
 quote = "BTC"
 providers = ["binance", "coinbase", "kucoin", "okx"]
@@ -810,7 +803,6 @@ denoms = [
     "STKATOM",
     "STOSMO",
     "USK",
-    "WBNB",
     "WETH",
     "WHALE",
     "WINK",
@@ -940,10 +932,6 @@ STARSOSMO = "1096"
 STATOMATOM = "1283"
 STOSMOOSMO = "833"
 WHALEOSMO = "1463"
-
-[contract_addresses.pancakev3_bsc]
-ETHWBNB = "0x7d05c84581f0c41ad80ddf677a510360bae09a5a"
-RIOWBNB = "0x3b4568933f86122e3a19814b1d42aa27fe429c3b"
 
 [contract_addresses.shade]
 ATOMSTKATOM = "secret18537ttv4l4k2ea0xp6ay3sv4c243fyjtj2uqz7"

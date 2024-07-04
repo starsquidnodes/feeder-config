@@ -250,9 +250,9 @@ currency_pairs:
   TIA-USDT:
     providers: okx, bybit, huobi, kucoin, gate, bitget
 
-  WBNB-ETH:
-    providers: pancakev3_bsc
-    twap: 30m
+  # WBNB-ETH:
+  #   providers: pancakev3_bsc
+  #   twap: 30m
 
   WBTC-BTC:
     providers: coinbase, kucoin, okx, binanceus
@@ -369,9 +369,9 @@ contracts:
     STATOMATOM: "1283"
     STOSMOOSMO: "833"
     WHALEOSMO: "1463"
-  pancakev3_bsc:
-    ETHWBNB: "0x7d05c84581f0c41ad80ddf677a510360bae09a5a"
-    RIOWBNB: "0x3b4568933f86122e3a19814b1d42aa27fe429c3b"
+  # pancakev3_bsc:
+  #   ETHWBNB: "0x7d05c84581f0c41ad80ddf677a510360bae09a5a"
+  #   RIOWBNB: "0x3b4568933f86122e3a19814b1d42aa27fe429c3b"
   shade:
     ATOMSTKATOM: secret18537ttv4l4k2ea0xp6ay3sv4c243fyjtj2uqz7
     SHDMNTA: secret1hyypq9cd207z2rrsxc7jdtljvfqdeu3gzafs87
@@ -408,7 +408,7 @@ min_providers:
   STKATOM: 1
   STOSMO: 1
   USK: 1
-  WBNB: 1
+  # WBNB: 1
   WETH: 1
   WHALE: 1
   WINK: 1
