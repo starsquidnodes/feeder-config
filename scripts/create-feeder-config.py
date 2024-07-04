@@ -131,6 +131,10 @@ def main():
         if url_set:
             lines += [f'url_set = "{url_set}"']
 
+        volume_blocks = ep_config.get("volume_blocks", None)
+        if volume_blocks:
+            lines += [f'volume_blocks = {volume_blocks}']
+
     for c_provider, c_addresses in config.get("contracts", {}).items():
         lines += [
             '',
@@ -138,6 +142,22 @@ def main():
         ]
         for symbol, address in c_addresses.items():
             lines += [f'{symbol} = "{address}"']
+
+    for d_provider, d_config in config.get("decimals", {}).items():
+        lines += [
+            '',
+            f'[decimals.{d_provider}]'
+        ]
+        for symbol, decimals in d_config.items():
+            lines += [f'{symbol} = {decimals}']
+
+    for d_provider, d_config in config.get("periods", {}).items():
+        lines += [
+            '',
+            f'[periods.{d_provider}]'
+        ]
+        for symbol, decimals in d_config.items():
+            lines += [f'{symbol} = {decimals}']
 
     for line in lines:
         print(line)
