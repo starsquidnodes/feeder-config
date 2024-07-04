@@ -175,9 +175,9 @@ currency_pairs:
   RIO-WETH:
     providers: uniswapv3
     twap: 30m
-  RIO-WBNB:
-    providers: pancakev3_bsc
-    twap: 30m
+  # RIO-WBNB:
+  #   providers: pancakev3_bsc
+  #   twap: 30m
   RIO-USDT:
     providers: okx, bingx, kucoin, coinex, pionex
 

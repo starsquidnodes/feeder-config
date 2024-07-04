@@ -556,13 +556,6 @@ derivative_period = "30m"
 
 [[currency_pairs]]
 base = "RIO"
-quote = "WBNB"
-providers = ["pancakev3_bsc"]
-derivative = "twap"
-derivative_period = "30m"
-
-[[currency_pairs]]
-base = "RIO"
 quote = "USDT"
 providers = ["bingx", "coinex", "kucoin", "okx", "pionex"]
 
