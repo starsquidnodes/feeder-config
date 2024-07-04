@@ -339,8 +339,8 @@ quote = "USD"
 providers = ["kraken"]
 
 [provider_weight.JUNO]
-osmosisv2 = 2
-kraken = 1
+osmosisv2 = 1
+kraken = 2
 
 [[currency_pairs]]
 base = "KAVA"

@@ -285,8 +285,8 @@ currency_pairs:
 
 provider_weights:
   JUNO:
-    osmosisv2: 2
-    kraken: 1
+    osmosisv2: 1
+    kraken: 2
 
 url_sets:
   api_kujira:
