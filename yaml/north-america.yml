@@ -56,7 +56,7 @@ currency_pairs:
     providers: kucoin, bybit, mexc, gate, bitget
 
   DYDX-USDT:
-    providers: binance, huobi, okx, gate, kucoin
+    providers: huobi, okx, gate, kucoin
   DYDX-USDC:
     providers: bitget
 
@@ -257,7 +257,7 @@ currency_pairs:
   WBTC-BTC:
     providers: coinbase, kucoin, okx, binanceus
   WBTC-USDT:
-    providers: bitget, bybit, crypto, gate, hitbtc, mexc, phemex, poloniex
+    providers: bitget, bybit, crypto, gate, hitbtc, mexc, phemex
 
   WETH-USDC:
     providers: uniswapv3
