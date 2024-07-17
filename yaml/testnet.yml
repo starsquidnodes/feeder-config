@@ -11,12 +11,12 @@ currency_pairs:
   BTC-USD:
     providers: bitfinex, coinbase
   BTC-USDT:
-    providers: binance, bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+    providers: bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
 
   ETH-USD:
     providers: bitfinex, coinbase, crypto
   ETH-USDT:
-    providers: binance, bitget, bybit, gate, hitbtc, huobi, kraken, kucoin, lbank, mexc, okx, phemex, poloniex, xt
+    providers: bitget, bybit, gate, hitbtc, huobi, kraken, kucoin, lbank, mexc, okx, phemex, poloniex, xt
 
   FUZN-USK:
     providers: finv2
@@ -26,7 +26,7 @@ currency_pairs:
     providers: mexc
     twap: 30m
   KUJI-USDC:
-    providers: fin
+    providers: finv2
     twap: 30m
   KUJI-WETH:
     providers: camelotv3
@@ -43,7 +43,7 @@ currency_pairs:
   PAXG-USD:
     providers: kraken
   PAXG-USDT:
-    providers: binance, bitget, bybit, crypto, kucoin, lbank, mexc, phemex
+    providers: bitget, bybit, crypto, kucoin, lbank, mexc, phemex
 
   QCKUJI-KUJI:
     providers: finv2
@@ -60,7 +60,7 @@ currency_pairs:
   USDC-USD:
     providers: kraken
   USDC-USDT:
-    providers: binance, bitget, bybit, gate, huobi, kucoin, lbank, mexc, okx, phemex, xt
+    providers: bitget, bybit, gate, huobi, kucoin, lbank, mexc, okx, phemex, xt
 
   USDT-USD:
     providers: binanceus, coinbase, crypto, gate, kraken
@@ -70,7 +70,7 @@ currency_pairs:
     twap: 30m
 
   WBTC-BTC:
-    providers: binance, coinbase, kucoin, okx
+    providers: coinbase, kucoin, okx
   WBTC-USDT:
     providers: bitget, bybit, crypto, gate, hitbtc, mexc, phemex, poloniex
 
@@ -98,16 +98,12 @@ url_sets:
     - https://example
   rpc_ethereum:
     - https://example
-  fin:
-    - https://example
 
 endpoints:
   astroport_neutron:
     url_set: api_neutron
   dexter:
     url_set: api_persistence
-  fin:
-    url_set: fin
   finv2:
     url_set: api_kujira
   osmosisv2:

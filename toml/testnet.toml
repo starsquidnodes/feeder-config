@@ -41,7 +41,6 @@ providers = ["bitfinex", "coinbase"]
 base = "BTC"
 quote = "USDT"
 providers = [
-    "binance",
     "bitget",
     "bybit",
     "crypto",
@@ -65,7 +64,6 @@ providers = ["bitfinex", "coinbase", "crypto"]
 base = "ETH"
 quote = "USDT"
 providers = [
-    "binance",
     "bitget",
     "bybit",
     "gate",
@@ -90,7 +88,7 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "KUJI"
 quote = "USDC"
-providers = ["fin"]
+providers = ["finv2"]
 derivative = "twap"
 derivative_period = "30m"
 
@@ -123,15 +121,7 @@ providers = ["kraken"]
 [[currency_pairs]]
 base = "PAXG"
 quote = "USDT"
-providers = [
-    "binance",
-    "bitget",
-    "bybit",
-    "crypto",
-    "kucoin",
-    "lbank",
-    "phemex",
-]
+providers = ["bitget", "bybit", "crypto", "kucoin", "lbank", "phemex"]
 
 [[currency_pairs]]
 base = "QCKUJI"
@@ -163,7 +153,6 @@ providers = ["kraken"]
 base = "USDC"
 quote = "USDT"
 providers = [
-    "binance",
     "bitget",
     "bybit",
     "gate",
@@ -190,7 +179,7 @@ derivative_period = "30m"
 [[currency_pairs]]
 base = "WBTC"
 quote = "BTC"
-providers = ["binance", "coinbase", "kucoin", "okx"]
+providers = ["coinbase", "kucoin", "okx"]
 
 [[currency_pairs]]
 base = "WBTC"
@@ -276,10 +265,6 @@ url_set = "api_neutron"
 [[provider_endpoints]]
 name = "dexter"
 url_set = "api_persistence"
-
-[[provider_endpoints]]
-name = "fin"
-url_set = "fin"
 
 [[provider_endpoints]]
 name = "finv2"

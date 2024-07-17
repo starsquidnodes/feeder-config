@@ -23,6 +23,10 @@ currency_pairs:
   AVAX-USDT:
     providers: bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
+  AQLA-USDC:
+    providers: finv2
+    twap: 30m
+
   AXL-USD:
     providers: coinbase, crypto, kraken, binanceus
   AXL-USDT:
@@ -42,6 +46,9 @@ currency_pairs:
   CACAO-BTC:
     providers: maya
 
+  CTK-USDT:
+    providers: bingx, mexc, xt, gate
+
   CRO-USDT:
     providers: bitget, crypto, gate, kucoin, lbank, mexc, okx, xt
 
@@ -50,15 +57,15 @@ currency_pairs:
   DOT-USDT:
     providers: bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt, binanceus
 
-  DYM-USD:
-    providers: kraken, bitfinex
-  DYM-USDT:
-    providers: kucoin, bybit, mexc, gate, bitget
-
   DYDX-USDT:
     providers: huobi, okx, gate, kucoin
   DYDX-USDC:
     providers: bitget
+
+  DYM-USD:
+    providers: kraken, bitfinex
+  DYM-USDT:
+    providers: kucoin, bybit, mexc, gate, bitget
 
   ETH-USD:
     providers: bitfinex, coinbase, crypto, binanceus
@@ -175,9 +182,6 @@ currency_pairs:
   RIO-WETH:
     providers: uniswapv3
     twap: 30m
-  # RIO-WBNB:
-  #   providers: pancakev3_bsc
-  #   twap: 30m
   RIO-USDT:
     providers: okx, bingx, kucoin, coinex, pionex
 
@@ -189,6 +193,11 @@ currency_pairs:
     providers: kraken
   SCRT-USDT:
     providers: bybit, gate, huobi, kucoin, lbank, mexc
+  
+  SEI-USD:
+    providers: coinbase
+  SEI-USDT:
+    providers: huobi, bitget, gate, bybit, xt, kraken, kucoin, pionex, bitmart, bingx
 
   SHD-MNTA:
     providers: finv2, shade
@@ -312,8 +321,6 @@ endpoints:
     url_set: rpc_arbitrum
   dexter:
     url_set: api_persistence
-  fin:
-    url_set: fin
   finv2:
     url_set: api_kujira
     volume_blocks: 20
@@ -342,6 +349,7 @@ contracts:
     ATOMSTKATOM: persistence1335rlmhujm0gj5e9gh7at9jpqvqckz0mpe4v284ar4lw5mlkryzszkpfrs
   finv2:
     AMPKUJIKUJI: kujira1lse59wt7a5yksdd08mennt299katjkfzdhmh8hvck8ln08jktcmsxrnh8s
+    AQLAUSDC: kujira1nswv58h3acql85587rkusqx3zn7k9qx3a3je8wqd3xnw39erpwnsddsm8z
     FUZNUSK: kujira1w6gpsfn55ufh3g3pf6qjrdhfj6rp09zqmruvgvzupkl39mtlpcdqw2ys7e
     KUJIUSDC: kujira1pw96huy6z02uk8hdpruk6g8u700dp8yxjhp46c24rwkzay2lfd3quqdum5
     MNTAUSDC: kujira1ws9w7wl68prspv3rut3plv8249rm0ea0kk335swye3sl2slld4lqdmc0lv
@@ -391,7 +399,9 @@ contracts:
 
 min_providers:
   AMPKUJI: 1
+  AQLA: 1
   CACAO: 1
+  CTK: 2
   FUZN: 1
   JUNO: 1
   KUJI: 2
@@ -432,6 +442,7 @@ decimals:
     STARS: 6
     WHALE: 6
   finv2:
+    AQLA: 6
     FUZN: 6
     KUJI: 6
     MNTA: 6
