@@ -106,6 +106,10 @@ currency_pairs:
   JUNO-USDT:
     providers: mexc
 
+  KART-USK:
+    providers: finv2
+    twap: 30m
+
   KAVA-USD:
     providers: coinbase, kraken, binanceus
   KAVA-USDT:
@@ -292,11 +296,6 @@ currency_pairs:
     providers: uniswapv3
     twap: 30m
 
-provider_weights:
-  JUNO:
-    osmosisv2: 1
-    kraken: 2
-
 url_sets:
   api_kujira:
     - https://example
@@ -351,6 +350,7 @@ contracts:
     AMPKUJIKUJI: kujira1lse59wt7a5yksdd08mennt299katjkfzdhmh8hvck8ln08jktcmsxrnh8s
     AQLAUSDC: kujira1nswv58h3acql85587rkusqx3zn7k9qx3a3je8wqd3xnw39erpwnsddsm8z
     FUZNUSK: kujira1w6gpsfn55ufh3g3pf6qjrdhfj6rp09zqmruvgvzupkl39mtlpcdqw2ys7e
+    KARTUSK: kujira19n770r9q5haax7mfgy8acrgz7gsamgyjhcvqvxfgrq25983lc42qtszngq
     KUJIUSDC: kujira1pw96huy6z02uk8hdpruk6g8u700dp8yxjhp46c24rwkzay2lfd3quqdum5
     MNTAUSDC: kujira1ws9w7wl68prspv3rut3plv8249rm0ea0kk335swye3sl2slld4lqdmc0lv
     NSTKUSK: kujira1ggtmfuktfcf6plhtdejyyqn5de5uge3tef0jv64ru68h2ctuvyqs3355mn
@@ -404,6 +404,7 @@ min_providers:
   CTK: 2
   FUZN: 1
   JUNO: 1
+  KART: 1
   KUJI: 2
   MNTA: 1
   NSTK: 1
