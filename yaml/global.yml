@@ -199,9 +199,9 @@ currency_pairs:
     providers: binance, bybit, gate, huobi, kucoin, lbank, mexc
   
   SEI-USD:
-    providers: coinbase
+    providers: coinbase, kraken
   SEI-USDT:
-    providers: binance, huobi, bitget, gate, bybit, xt, kraken, kucoin, pionex, bitmart, bingx
+    providers: binance, huobi, bitget, gate, bybit, xt, kucoin, pionex, bitmart, bingx
 
   SHD-MNTA:
     providers: finv2, shade
