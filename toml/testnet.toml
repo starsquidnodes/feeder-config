@@ -263,6 +263,10 @@ name = "astroport_neutron"
 url_set = "api_neutron"
 
 [[provider_endpoints]]
+name = "camelotv3"
+url_set = "rpc_arbitrum"
+
+[[provider_endpoints]]
 name = "dexter"
 url_set = "api_persistence"
 
@@ -333,3 +337,33 @@ SHDMNTA = "secret1hyypq9cd207z2rrsxc7jdtljvfqdeu3gzafs87"
 [contract_addresses.uniswapv3]
 USDCWETH = "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
 WSTETHWETH = "0x109830a1AAaD605BbF02a9dFA7B0B92EC2FB7dAa"
+
+[decimals.osmosisv2]
+JUNO = 6
+KUJI = 6
+OSMO = 6
+SOMM = 6
+STARS = 6
+WHALE = 6
+
+[decimals.finv2]
+AQLA = 6
+FUZN = 6
+KART = 6
+KUJI = 6
+MNTA = 6
+NSTK = 6
+SOMM = 6
+STARS = 6
+USDC = 6
+USK = 6
+WHALE = 6
+WINK = 6
+
+[decimals.whitewhale_whale]
+USDC = 6
+WHALE = 6
+
+[decimals.camelotv3]
+KUJI = 6
+WETH = 18
