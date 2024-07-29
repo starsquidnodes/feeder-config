@@ -102,6 +102,8 @@ url_sets:
 endpoints:
   astroport_neutron:
     url_set: api_neutron
+  camelotv3:
+    url_set: rpc_arbitrum
   dexter:
     url_set: api_persistence
   finv2:
@@ -180,3 +182,31 @@ deviation_thresholds:
   USDT: 2
   STATOM: 2
   STKATOM: 2
+
+decimals:
+  osmosisv2:
+    JUNO: 6
+    KUJI: 6
+    OSMO: 6
+    SOMM: 6
+    STARS: 6
+    WHALE: 6
+  finv2:
+    AQLA: 6
+    FUZN: 6
+    KART: 6
+    KUJI: 6
+    MNTA: 6
+    NSTK: 6
+    SOMM: 6
+    STARS: 6
+    USDC: 6
+    USK: 6
+    WHALE: 6
+    WINK: 6
+  whitewhale_whale:
+    USDC: 6
+    WHALE: 6
+  camelotv3:
+    KUJI: 6
+    WETH: 18
