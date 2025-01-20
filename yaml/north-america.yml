@@ -77,10 +77,8 @@ currency_pairs:
   FET-USDT:
     providers: bitget, crypto, gate, huobi, kucoin, lbank, mexc, phemex, binanceus
 
-  FTM-USD:
-    providers: bitfinex, kraken, binanceus
   FTM-USDT:
-    providers: bitget, bybit, crypto, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, binanceus
+    providers: bitget, bybit, gate, hitbtc, huobi
 
   FUZN-USK:
     providers: finv2
@@ -197,7 +195,7 @@ currency_pairs:
     providers: kraken
   SCRT-USDT:
     providers: bybit, gate, huobi, kucoin, lbank, mexc
-  
+
   SEI-USD:
     providers: coinbase, kraken
   SEI-USDT:
@@ -232,7 +230,7 @@ currency_pairs:
   STATOM-ATOM:
     providers: osmosisv2, finv2, astroport_neutron
     twap: 30m
-  
+
   STKATOM-ATOM:
     providers: shade, osmosisv2, dexter
     twap: 30m
@@ -311,7 +309,6 @@ url_sets:
     - https://example
   rpc_ethereum:
     - https://example
-
 
 endpoints:
   astroport_neutron:
