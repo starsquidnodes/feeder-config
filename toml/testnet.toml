@@ -18,18 +18,18 @@ providers = ["coinbase", "kraken"]
 base = "ATOM"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -41,18 +41,18 @@ providers = ["bitfinex", "coinbase"]
 base = "BTC"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -64,18 +64,18 @@ providers = ["bitfinex", "coinbase", "crypto"]
 base = "ETH"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kraken",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "bitget",
+  "bybit",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kraken",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -153,15 +153,15 @@ providers = ["kraken"]
 base = "USDC"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "gate",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "xt",
+  "bitget",
+  "bybit",
+  "gate",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -185,13 +185,13 @@ providers = ["coinbase", "kucoin", "okx"]
 base = "WBTC"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "phemex",
-    "poloniex",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "phemex",
+  "poloniex",
 ]
 
 [[currency_pairs]]
@@ -219,18 +219,18 @@ derivative_period = "30m"
 
 [[provider_min_overrides]]
 denoms = [
-    "AMPKUJI",
-    "FUZN",
-    "KUJI",
-    "MNTA",
-    "NSTK",
-    "QCKUJI",
-    "STATOM",
-    "STKATOM",
-    "USK",
-    "WETH",
-    "WINK",
-    "WSTETH",
+  "AMPKUJI",
+  "FUZN",
+  "KUJI",
+  "MNTA",
+  "NSTK",
+  "QCKUJI",
+  "STATOM",
+  "STKATOM",
+  "USK",
+  "WETH",
+  "WINK",
+  "WSTETH",
 ]
 providers = 1
 

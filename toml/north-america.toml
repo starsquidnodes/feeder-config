@@ -28,17 +28,17 @@ providers = ["binanceus", "bitfinex", "coinbase", "crypto", "kraken"]
 base = "ARB"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -50,19 +50,19 @@ providers = ["binanceus", "coinbase", "kraken"]
 base = "ATOM"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -74,19 +74,19 @@ providers = ["binanceus", "bitfinex", "coinbase", "kraken"]
 base = "AVAX"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -110,33 +110,33 @@ providers = ["binanceus", "bitget", "bybit", "gate", "huobi", "kucoin"]
 base = "BAND"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "okx",
-    "phemex",
+  "binanceus",
+  "bitget",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "okx",
+  "phemex",
 ]
 
 [[currency_pairs]]
 base = "BNB"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -148,19 +148,19 @@ providers = ["binanceus", "bitfinex", "coinbase"]
 base = "BTC"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -187,18 +187,18 @@ providers = ["binanceus", "bitfinex", "coinbase", "crypto", "kraken"]
 base = "DOT"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -230,19 +230,19 @@ providers = ["binanceus", "bitfinex", "coinbase", "crypto"]
 base = "ETH"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kraken",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kraken",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -254,14 +254,14 @@ providers = ["binanceus", "bitfinex", "coinbase", "kraken"]
 base = "FET"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "crypto",
-    "gate",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "phemex",
+  "binanceus",
+  "bitget",
+  "crypto",
+  "gate",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "phemex",
 ]
 
 [[currency_pairs]]
@@ -273,17 +273,17 @@ providers = ["binanceus", "bitfinex", "kraken"]
 base = "FTM"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
 ]
 
 [[currency_pairs]]
@@ -297,15 +297,15 @@ derivative_period = "30m"
 base = "GLMR"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "xt",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -327,15 +327,15 @@ providers = ["coinbase", "kraken"]
 base = "INJ"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "crypto",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "phemex",
+  "bitget",
+  "bybit",
+  "crypto",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "phemex",
 ]
 
 [[currency_pairs]]
@@ -364,14 +364,14 @@ providers = ["binanceus", "coinbase", "kraken"]
 base = "KAVA"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "crypto",
-    "gate",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "xt",
+  "binanceus",
+  "bitget",
+  "crypto",
+  "gate",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -425,15 +425,15 @@ providers = ["binanceus", "coinbase", "crypto", "kraken"]
 base = "LINK"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "huobi",
-    "lbank",
-    "okx",
-    "phemex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "huobi",
+  "lbank",
+  "okx",
+  "phemex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -445,16 +445,16 @@ providers = ["kraken"]
 base = "LUNA"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "xt",
+  "bitget",
+  "bybit",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -466,16 +466,16 @@ providers = ["crypto", "kraken"]
 base = "LUNC"
 quote = "USDT"
 providers = [
-    "bitget",
-    "bybit",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "xt",
+  "bitget",
+  "bybit",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -487,23 +487,23 @@ providers = ["binanceus", "bitfinex", "coinbase", "crypto", "kraken"]
 base = "MATIC"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "hitbtc",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "poloniex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "hitbtc",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "poloniex",
+  "xt",
 ]
 
 [[currency_pairs]]
 base = "MNTA"
-quote = "USDC"
+quote = "USK"
 providers = ["finv2"]
 derivative = "twap"
 derivative_period = "30m"
@@ -539,13 +539,13 @@ providers = ["binanceus", "kraken"]
 base = "PAXG"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "crypto",
-    "kucoin",
-    "lbank",
-    "phemex",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "crypto",
+  "kucoin",
+  "lbank",
+  "phemex",
 ]
 
 [[currency_pairs]]
@@ -600,15 +600,15 @@ providers = ["coinbase", "kraken"]
 base = "SEI"
 quote = "USDT"
 providers = [
-    "bingx",
-    "bitget",
-    "bitmart",
-    "bybit",
-    "gate",
-    "huobi",
-    "kucoin",
-    "pionex",
-    "xt",
+  "bingx",
+  "bitget",
+  "bitmart",
+  "bybit",
+  "gate",
+  "huobi",
+  "kucoin",
+  "pionex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -627,14 +627,14 @@ providers = ["binanceus", "coinbase", "kraken"]
 base = "SOL"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "huobi",
-    "kucoin",
-    "okx",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "huobi",
+  "kucoin",
+  "okx",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -700,14 +700,14 @@ providers = ["binanceus", "coinbase", "crypto", "kraken"]
 base = "UNI"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "huobi",
-    "lbank",
-    "okx",
-    "phemex",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "huobi",
+  "lbank",
+  "okx",
+  "phemex",
 ]
 
 [[currency_pairs]]
@@ -719,16 +719,16 @@ providers = ["binanceus", "kraken"]
 base = "USDC"
 quote = "USDT"
 providers = [
-    "binanceus",
-    "bitget",
-    "bybit",
-    "gate",
-    "huobi",
-    "kucoin",
-    "lbank",
-    "okx",
-    "phemex",
-    "xt",
+  "binanceus",
+  "bitget",
+  "bybit",
+  "gate",
+  "huobi",
+  "kucoin",
+  "lbank",
+  "okx",
+  "phemex",
+  "xt",
 ]
 
 [[currency_pairs]]
@@ -809,29 +809,29 @@ derivative_period = "30m"
 
 [[provider_min_overrides]]
 denoms = [
-    "AMPKUJI",
-    "AQLA",
-    "CACAO",
-    "FUZN",
-    "JUNO",
-    "KART",
-    "MNTA",
-    "NSTK",
-    "QCKUJI",
-    "QCMNTA",
-    "RIO",
-    "RLB",
-    "SHD",
-    "SOMM",
-    "STARS",
-    "STATOM",
-    "STKATOM",
-    "STOSMO",
-    "USK",
-    "WETH",
-    "WHALE",
-    "WINK",
-    "WSTETH",
+  "AMPKUJI",
+  "AQLA",
+  "CACAO",
+  "FUZN",
+  "JUNO",
+  "KART",
+  "MNTA",
+  "NSTK",
+  "QCKUJI",
+  "QCMNTA",
+  "RIO",
+  "RLB",
+  "SHD",
+  "SOMM",
+  "STARS",
+  "STATOM",
+  "STKATOM",
+  "STOSMO",
+  "USK",
+  "WETH",
+  "WHALE",
+  "WINK",
+  "WSTETH",
 ]
 providers = 1
 
@@ -932,7 +932,7 @@ AQLAUSDC = "kujira1nswv58h3acql85587rkusqx3zn7k9qx3a3je8wqd3xnw39erpwnsddsm8z"
 FUZNUSK = "kujira1w6gpsfn55ufh3g3pf6qjrdhfj6rp09zqmruvgvzupkl39mtlpcdqw2ys7e"
 KARTUSK = "kujira19n770r9q5haax7mfgy8acrgz7gsamgyjhcvqvxfgrq25983lc42qtszngq"
 KUJIUSDC = "kujira1pw96huy6z02uk8hdpruk6g8u700dp8yxjhp46c24rwkzay2lfd3quqdum5"
-MNTAUSDC = "kujira1ws9w7wl68prspv3rut3plv8249rm0ea0kk335swye3sl2slld4lqdmc0lv"
+MNTAUSK = "kujira19n770r9q5haax7mfgy8acrgz7gsamgyjhcvqvxfgrq25983lc42qtszngq"
 NSTKUSK = "kujira1ggtmfuktfcf6plhtdejyyqn5de5uge3tef0jv64ru68h2ctuvyqs3355mn"
 QCKUJIKUJI = "kujira14wsrem89304kpkl6d0j58dl6479eekwt047ccs0qzv9f60w80wzs8rjq4j"
 QCMNTAMNTA = "kujira1ujsr2ge7dr723kse7thjv2rm3k7dkmjaxqzdh8qkcnx5gqz57jsqxy4ker"
