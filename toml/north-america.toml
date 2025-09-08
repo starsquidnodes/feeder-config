@@ -613,10 +613,8 @@ providers = [
 
 [[currency_pairs]]
 base = "SHD"
-quote = "MNTA"
-providers = ["finv2", "shade"]
-derivative = "twap"
-derivative_period = "30m"
+quote = "USDT"
+providers = ["bitmart"]
 
 [[currency_pairs]]
 base = "SOL"

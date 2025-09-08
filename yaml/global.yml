@@ -203,9 +203,8 @@ currency_pairs:
   SEI-USDT:
     providers: binance, huobi, bitget, gate, bybit, xt, kucoin, pionex, bitmart, bingx
 
-  SHD-MNTA:
-    providers: finv2, shade
-    twap: 30m
+  SHD-USDT:
+    providers: bitmart
 
   SOL-USD:
     providers: coinbase, kraken
