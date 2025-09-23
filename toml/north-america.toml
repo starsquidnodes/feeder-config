@@ -503,10 +503,10 @@ providers = [
 
 [[currency_pairs]]
 base = "MNTA"
-quote = "USK"
-providers = ["finv2"]
+quote = "USDC"
+providers = ["rujira"]
 derivative = "twap"
-derivative_period = "30m"
+derivative_period = "10m"
 
 [[currency_pairs]]
 base = "NSTK"
