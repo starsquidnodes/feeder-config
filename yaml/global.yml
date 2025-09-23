@@ -154,9 +154,9 @@ currency_pairs:
   MATIC-USDT:
     providers: binance, bitget, bybit, gate, hitbtc, huobi, kucoin, lbank, mexc, okx, phemex, poloniex, xt
 
-  MNTA-USK:
-    providers: finv2
-    twap: 30m
+  MNTA-USDC:
+    providers: rujira
+    twap: 10m
 
   NSTK-USK:
     providers: finv2
